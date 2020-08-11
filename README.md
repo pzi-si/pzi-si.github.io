@@ -1,4 +1,4 @@
-### Spletna stran za PZI knjige
+# Spletna stran za PZI knjige
 
 <!--
 **pzi-si/pzi-si** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
