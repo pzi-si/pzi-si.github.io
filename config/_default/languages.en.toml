@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "pzi.si"
+title = "Programiranje za inženirje"
 
 [params]
   displayName = "EN"
@@ -14,9 +14,9 @@ title = "pzi.si"
   copyright = "&copy; pzi.si | Vse pravice pridržane."
 
 [author]
-  name = "Matevž Dolenc"
-  # image = "img/logo.png"
-  headline = "Late discoverer"
+#  name = "Matevž Dolenc"
+#  image = "img/logo.png"
+#  headline = "Late discoverer"
 #   bio = "A little bit about you"
 #   links = [
 # 	{ ul = "https://www.fgg.uni-lj.si/seznam-zaposlenih/matevz-dolenc/" },   
