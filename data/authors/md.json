@@ -1,0 +1,13 @@
+{
+    "name": "Matevž Dolenc",
+    "image" : "img/md.png",
+    "bio": "Late discoverer",
+    "social": [
+        { "ul": "https://www.fgg.uni-lj.si/seznam-zaposlenih/matevz-dolenc/" },
+        { "facebook": "https://www.facebook.com/matevzdolenc" },
+        { "github": "https://github.com/matevzdolenc" },
+        { "instagram": "https://www.instagram.com/matevzdolenc/" },
+        { "linkedin": "https://linkedin.com/in/matevzdolenc" },
+        { "orcid": "https://orcid.org/0000-0001-7092-635X" }
+    ]
+}

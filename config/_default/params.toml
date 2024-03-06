@@ -36,8 +36,8 @@ disableTextInHeader = false
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "hero-2.jpeg" # used in: hero, and card
+  layout = "page" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "hero-2.jpeg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false

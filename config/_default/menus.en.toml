@@ -15,15 +15,32 @@
 # pageRef = "posts"
 # weight = 10
 
+[[main]]
+ name = "Knjige"
+ weight = 10
+
+[[main]]
+ name = "Uvod v programiranje in programski jezik Python"
+ parent = "Knjige"
+ pageRef = "/knjiga-1"
+ weight = 10
+
+[[main]]
+ name = "Rešeni primeri v programskem jeziku Python"
+ parent = "Knjige"
+ pageRef = "/knjiga-2"
+ weight = 20
+
+[[main]]
+ name = "Novi rešeni primeri v programskem jeziku Python"
+ parent = "Knjige"
+ pageRef = "/knjiga-3"
+ weight = 30
+
 # [[main]]
-#  name = "BIMpogovori"
-#  url = "http://bimpogovori.si"
-#  weight = 10
-# 
-# [[main]]
-#  name = "mojFGG"
-#  url = "https://buildingsmart.fgg.uni-lj.si"
-#  weight = 20
+# name = "Avtorji"
+# pageRef = "authors"
+# weight = 20
 
 # 
 # [[main]]

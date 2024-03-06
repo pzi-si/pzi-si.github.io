@@ -1,0 +1,8 @@
+{
+    "name": "Robert Klinc",
+    "image" : "img/rk.png",
+    "bio": "Robert bio",
+    "social": [
+        { "ul": "https://www.fgg.uni-lj.si/seznam-zaposlenih/robert-klinc/" }
+    ]
+}
