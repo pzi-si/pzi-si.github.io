@@ -555,8 +555,8 @@ pre.rouge .gs {
 <div class="details">
 <span id="author" class="author">Robert Klinc</span><br>
 <span id="author2" class="author">Matevž Dolenc</span><br>
-<span id="revnumber">version 0.96,</span>
-<span id="revdate">24. 2. 2024</span>
+<span id="revnumber">version 0.99,</span>
+<span id="revdate">4. 3. 2024</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Kazalo</div>
@@ -614,7 +614,6 @@ pre.rouge .gs {
 </ul>
 </li>
 <li><a href="#_dodatni_viri">Poglavje 3. Dodatni viri</a></li>
-<li><a href="#_kolofon">Kolofon</a></li>
 </ul>
 </div>
 </div>
@@ -636,7 +635,7 @@ Kar naredim, razumem.</p>
 </div>
 </blockquote>
 <div class="attribution">
-&#8212; (modificiran) kitajski pregovor
+&#8212; kitajski pregovor
 </div>
 </div>
 <div class="paragraph">
@@ -649,7 +648,7 @@ Kar naredim, razumem.</p>
 <p>Pred vami je torej zbirka osnovnih nalog z rešitvami, napisanimi v programskem jeziku Python, ki vas bo popeljala od samih začetkov do točke, ko boste lahko začeli pridobljeno znanje uporabljati tudi za reševanje svojih nalog in izboljšanje svojih delovnih procesov.</p>
 </div>
 <div class="paragraph">
-<p>V tem učbeniku oziroma zbirki nalog ne boste našli čisto vseh osnov in v njej ne bodo predstavljeni čisto vsi koncepti, bo pa dober priročnik za vse, ki se boste želeli priučiti programiranja ali pa svoje znanje programiranja zgolj preveriti oziroma nadgraditi. Ugotovili boste (če morda še ne veste), da se lahko reševanja lotite na (skoraj) neomejeno število načinov. Eni so bolj učinkoviti, drugi so bolj berljivi, tretji so sintaktično bolj pravilni&#8230;&#8203; Ustrezni so (skoraj) vsi, samo da vrnejo pričakovane rezultate. Vsako predstavljeno rešitev naloge torej vzemite kot eno od možnosti in nikakor ne edino pravilno!</p>
+<p>V tem učbeniku oziroma zbirki nalog ne boste našli čisto vseh osnov in v njej ne bodo predstavljeni čisto vsi koncepti, bo pa to dober priročnik za vse, ki se boste želeli priučiti programiranja ali pa svoje znanje programiranja zgolj preveriti oziroma nadgraditi. Ugotovili boste (če morda še ne veste), da se lahko reševanja lotite na (skoraj) neomejeno število načinov. Eni so bolj učinkoviti, drugi so bolj berljivi, tretji so sintaktično bolj pravilni &#8230;&#8203; Ustrezni so (skoraj) vsi, samo da vrnejo pričakovane rezultate. Vsako predstavljeno rešitev naloge torej vzemite kot eno od možnosti in nikakor ne kot edino pravilno!</p>
 </div>
 <div class="paragraph">
 <p>Sedaj pa veselo na delo.</p>
@@ -680,12 +679,12 @@ Kar naredim, razumem.</p>
 <p>v prvem delu so opisane naloge z bistvenimi namigi ter povezavami do rešitev,</p>
 </li>
 <li>
-<p>v drugem delu pa so predstavljene možne rešitve.</p>
+<p>v drugem delu so predstavljene nekatere rešitve.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Vse rešitve so opremljene z bistvenimi pojasnili, pri določenih nalogah pa je predstavljenih več možnih rešitev, vse z namenom, da bodo predstavljene rešitve čim bolj jasne in razumljive.</p>
+<p>Vse rešitve so opremljene z bistvenimi pojasnili. Pri določenih nalogah pa je predstavljenih več možnih rešitev, vse z namenom, da bi bila pot do rešitev čim bolj jasna in razumljiva.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -705,7 +704,7 @@ Kar naredim, razumem.</p>
 <p>Vse rešitve so prilagojene osnovni stopnji programiranja in bi morale biti razumljive tudi začetnikom.</p>
 </div>
 <div class="paragraph">
-<p>Predlagava, da si najprej izberete programerski izziv v prvem delu, si ogledate namige in poskusite sami napisati rešitev. Šele ko nalogo rešite, si oglejte tudi predlagane rešitve ter razlike med posameznimi različicami, če obstajajo. V pomoč pri razumevanju so vam lahko tudi bistvena pojasnili pri vsaki od rešitev.</p>
+<p>Predlagava, da si najprej izberete programerski izziv v prvem delu, si ogledate namige in poskusite sami napisati rešitev. Šele ko nalogo rešite, si oglejte tudi predlagane rešitve ter razlike med posameznimi različicami, če obstajajo. V pomoč pri razumevanju so vam lahko tudi bistvena pojasnila pri vsaki od rešitev.</p>
 </div>
 <div class="paragraph">
 <p>Želiva vam uspešno programiranje.</p>
@@ -716,15 +715,17 @@ Kar naredim, razumem.</p>
 <div class="sect1">
 <h2 id="_naloge">Poglavje 1. Naloge</h2>
 <div class="sectionbody">
+<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;"></div>
 <div class="sect2">
 <h3 id="_množenje_števil">1.1. Množenje števil</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Pripravite program, v katerem dvema spremenljivkama določite vrednost, nato pa uvedete tretjo, ki je zmnožek prejšnjih dveh. Tretjo spremeljivko izpišete na zaslon.</p>
+<p>Pripravite program, v katerem dvema spremenljivkama določite vrednost, nato pa uvedete tretjo, ki je zmnožek prejšnjih dveh. Tretjo spremenljivko izpišete na zaslon.</p>
 </div>
 <div class="paragraph">
-<p><em>Primer: mnozenec, mnozitelj, zmnozek = mnozenec * mnozitelj, izpišete spremenljivko <strong>zmnozek</strong>.</em></p>
+<p><em>Primer: zmnozek = mnozenec * mnozitelj, izpišete spremenljivko <strong>zmnozek</strong>.</em></p>
 </div>
 </div>
 </div>
@@ -735,12 +736,11 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>Nalogo rešimo tako, da uvedemo novi spremenljivki, jima določimo vrednost, nato pa uvedemo tretjo, ki je zmnožek prejšnjih dveh. Rezultat izpišemo na zaslon s pomočjo funkcije <em>print()</em>.</p>
 </div>
 <div class="paragraph">
-<p>Primer rešitve: <a href="#naloga001">Programska koda 1</a>.</p>
+<p>Primer rešitve: <a href="#naloga001">Izvorna koda 1</a>.</p>
 </div>
 </td>
 </tr>
@@ -766,12 +766,11 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>Za reševanje uporabimo funkcijo <em>input()</em>, ki nas vpraša po imenu in naš vpis dodeli določeni spremenljivki kot niz znakov (<em>string</em>). Ta niz znakov lahko potem združimo s poljubnim besedilom in s pomočjo funkcije <em>print()</em> izpišemo na zaslon.</p>
 </div>
 <div class="paragraph">
-<p>Primer rešitve: <a href="#naloga002">Programska koda 2</a>.</p>
+<p>Primer rešitve: <a href="#naloga002">Izvorna koda 2</a>.</p>
 </div>
 </td>
 </tr>
@@ -783,7 +782,7 @@ Kar naredim, razumem.</p>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Pripravite program, ki vam bo za podan polmer izračunal ploščino in obseg kroga ter vam izpisal rezultat.</p>
+<p>Pripravite program, ki vam bo za podani polmer izračunal ploščino in obseg kroga ter vam izpisal rezultat.</p>
 </div>
 </div>
 </div>
@@ -794,7 +793,6 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>V tem primeru imamo več možnosti reševanja:</p>
 </div>
@@ -844,9 +842,8 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
-<p>Tukaj je potrebno uporabnika pozvati k vpisu dveh števil s pomočjo funkcije <em>input()</em>, nato pa je potrebno biti pozoren na podatkovni tip:</p>
+<p>Tukaj je treba uporabnika pozvati k vpisu dveh števil s pomočjo funkcije <em>input()</em>, nato pa je treba biti pozoren na podatkovni tip:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -857,10 +854,10 @@ Kar naredim, razumem.</p>
 <p><a href="#naloga004b">rešitev s spremembo podatkovnega tipa (pravilna)</a></p>
 </li>
 <li>
-<p><a href="#naloga004c">rešitev s spremembo podatkovnega tipa (pravilna) - drugačen izpis</a></p>
+<p><a href="#naloga004c">rešitev s spremembo podatkovnega tipa - drugačen izpis</a></p>
 </li>
 <li>
-<p><a href="#naloga004d">rešitev s spremembo podatkovnega tipa (pravilna) - drugačen izpis #2</a></p>
+<p><a href="#naloga004d">rešitev s spremembo podatkovnega tipa - drugačen izpis #2</a></p>
 </li>
 <li>
 <p><a href="#naloga004e">končna rešitev s preverjanjem vnosov (uporaba try/except)</a></p>
@@ -888,9 +885,8 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
-<p>Tukaj je potrebno uporabnika pozvati k vpisu dolžin stranic s pomočjo funkcije <em>input()</em>:</p>
+<p>Tukaj je treba uporabnika pozvati k vpisu dolžin stranic s pomočjo funkcije <em>input()</em>:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -912,10 +908,10 @@ Kar naredim, razumem.</p>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Napišite program, ki mu uporabnik vpiše temperaturo v Fahrenheitovih stopinjah, program pa jo izpiše v Celzijevih (°F &#8594; °C). Med temperaturama pretvarjamo po formuli °C = 5/9 (°F – 32).</p>
+<p>Napišite program, ki mu uporabnik vpiše temperaturo v Fahrenheitovih stopinjah, program pa jo izpiše v Celzijevih (°F &#8594; °C).</p>
 </div>
 <div class="paragraph">
-<p>Za potrebe Američanov napiši še program, ki računa v nasprotni smeri (°C &#8594; °F).</p>
+<p>Pripravite še program, ki računa v nasprotni smeri (°C &#8594; °F).</p>
 </div>
 </div>
 </div>
@@ -926,7 +922,6 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>V tem primeru spoznamo uporabo pogojnih stavkov. Pomembni sta formuli za pretvorbo med °C in °F:</p>
 </div>
@@ -980,9 +975,8 @@ Kar naredim, razumem.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
-<p>Kako lahko preverimo, če je število popoln kvadrat? Tako, da preverimo, če je koren tega števila celo število! Pri tem bomo spoznali novi funkciji <em>is_integer()</em> in <em>int()</em>.</p>
+<p>Kako lahko preverimo, če je število popoln kvadrat? Tako da preverimo, če je koren tega števila celo število! Pri tem bomo spoznali novi funkciji <em>is_integer()</em> in <em>int()</em>.</p>
 </div>
 <div class="paragraph">
 <p>Nalogo lahko rešimo na več načinov:</p>
@@ -1025,9 +1019,8 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
-<p>Za rešitev te naloge se moramo spomniti, da je za delitelja nekega števila značilno, da je ostanek pri deljenju števila z deliteljem enak 0. Na tem lahko gradimo. Za reševanje bomo uporabili zanko <em>while</em>, lahko pa bi nalogo rešili tudi s pomočjo zanke <em>for</em>.</p>
+<p>Za rešitev te naloge se moramo spomniti, da je za delitelja nekega števila značilno, da je ostanek pri deljenju števila z deliteljem enak 0. Na tem lahko gradimo. Za reševanje bomo uporabili zanko <em>while</em>, lahko pa bi nalogo rešili tudi z zanko <em>for</em>.</p>
 </div>
 <div class="paragraph">
 <p>Nalogo lahko rešimo tako, da:</p>
@@ -1069,7 +1062,6 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>Praštevilo je naravno število (n &gt; 1), ki ima točno dva pozitivna delitelja (faktorja), število 1 in samega sebe.</p>
 </div>
@@ -1097,7 +1089,6 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>Pravilo za določanje prestopnih let je:</p>
 </div>
@@ -1138,7 +1129,6 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
 <p>Fibonaccijevo zaporedje se začne s številoma 1, 1, vsak naslednji člen pa dobimo tako, da seštejemo prejšnja dva. 1 in 1 je 2, 1 in 2 je 3, 2 in 3 je 5, 3 in 5 je 8 in tako naprej. Zaporedje se tako začne z 1 1 2 3 5 8 13 21 34 55.</p>
 </div>
@@ -1179,7 +1169,6 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Rešitev</div>
 <div class="paragraph">
 <p>Nalogo rešimo s pomočjo zapisovanja vpisanih števil v polje.</p>
 </div>
@@ -1239,12 +1228,8 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Rešitev</div>
 <div class="paragraph">
-<p>Težava je s sklanjanjem v slovenščini, saj opravimo 1 izpit, 2 izpita in 3 (ali 4) izpite ter 5 (ali več) izpitov.</p>
-</div>
-<div class="paragraph">
-<p>Pozorni pa moramo biti tudi pri številih, večjih od 100! Opravimo namreč 101 (201, 301, &#8230;&#8203;) izpit, 102 izpita in 103 (ali 104) izpite ter 105 (ali več) izpitov.</p>
+<p>Težava je s sklanjanjem v slovenščini, saj opravimo 1 izpit, 2 izpita in 3 (ali 4) izpite ter 5 (ali več) izpitov. Pozorni pa moramo biti tudi pri številih, večjih od 100! Opravimo namreč 101 (201, 301, &#8230;&#8203;) izpit, 102 izpita in 103 (ali 104) izpite ter 105 (ali več) izpitov.</p>
 </div>
 <div class="paragraph">
 <p>Rešitev naloge: <a href="#naloga014">naloga 14</a>.</p>
@@ -1259,7 +1244,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sestavi program, ki izračuna fakulteto vnešenega števila.</p>
+<p>Sestavi program, ki izračuna fakulteto vnesenega števila.</p>
 </div>
 </div>
 </div>
@@ -1297,7 +1282,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <p>Napiši program, ki od uporabnika dobi naravno število, nato pa nariše <em>smrečico</em> z znakom *.</p>
 </div>
 <div class="paragraph">
-<p>Smrečica naj ima toliko vrstic, kot jih uporabnik definira z vnosom naravnega števila.</p>
+<p>Smrečica naj ima toliko vrstic, kolikor jih uporabnik definira z vnosom naravnega števila.</p>
 </div>
 </div>
 </div>
@@ -1315,7 +1300,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <p><a href="#naloga016a">smrečica, poravnana levo</a>,</p>
 </li>
 <li>
-<p><a href="#naloga016b">smrečica, poravnavna desno</a>,</p>
+<p><a href="#naloga016b">smrečica, poravnana desno</a>,</p>
 </li>
 <li>
 <p><a href="#naloga016c">smrečica, poravnana sredinsko</a>.</p>
@@ -1370,7 +1355,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sestavi program, v katerem uporabnik vpiše niz znakov, program pa pove, ali je vpisan niz znakov palindrom ali ne.</p>
+<p>Sestavi program, v katerem uporabnik vpiše niz znakov, program pa pove, ali je vpisani niz znakov palindrom ali ne.</p>
 </div>
 <div class="paragraph">
 <p>Pomoč: Palindrom je niz znakov, ki se enako prebere z leve in z desne.</p>
@@ -1385,9 +1370,6 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 </td>
 <td class="content">
 <div class="title">Rešitvi</div>
-<div class="paragraph">
-<p>Rešitvi naloge:</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
@@ -1517,6 +1499,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <h2 id="_rešitve">Poglavje 2. Rešitve</h2>
 <div class="sectionbody">
 <div style="page-break-after: always;"></div>
+<div style="page-break-after: always;"></div>
 <div class="sect2">
 <h3 id="naloga1">2.1. Množenje števil</h3>
 <div class="sidebarblock">
@@ -1532,7 +1515,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <div class="sect3">
 <h4 id="_rešitev">2.1.1. Rešitev</h4>
 <div id="naloga001" class="listingblock">
-<div class="title">Programska koda 1. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga001.py">naloga001.py</a></div>
+<div class="title">Izvorna koda 1. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga001.py">naloga001.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -1567,6 +1550,15 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Če program zaženete, bo program izpisal zgolj rešitev. Če pa odstranite znak # v vrstici 15, bo izpis podoben spodnjemu.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>Rezultat: 2 * 4 = 8</code></pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 1. Razlaga</caption>
 <colgroup>
@@ -1582,15 +1574,15 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dobra praksa je, da vsako datoteko začnemo z navedbo, da gre za program, napisan v programskem jeziku Python. Tako lahko v tej vrstici najdemo deklaracijo, ki se ne spreminja in je lahko za vsako datoteko identična. V računalništvu se shebang (imenovan tudi hashbang, hashpling, pound bang ali crunchbang) nanaša na znaka "#!", kadar sta to prva dva znaka v ukazu za tolmača kot prva vrstica besedilne datoteke. V operacijskem sistemu, podobnem Unixu, nalagalnik programa prisotnost teh dveh znakov razume kot znak, da je datoteka skripta, in poskuša to skripto izvesti z uporabo tolmača, določenega v preostanku prve vrstice v datoteki. V našem primeru gre za tolmač oziroma prevajalnik, ki prevaja ukaze, zapisane v programskem jeziku Python.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dobra praksa je, da vsako datoteko začnemo z navedbo, da gre za program, napisan v programskem jeziku Python. Tako lahko v tej vrstici najdemo deklaracijo, ki se ne spreminja in je lahko za vsako datoteko enaka. V računalništvu se shebang (imenovan tudi hashbang, hashpling, pound bang ali crunchbang) nanaša na znaka "#!", kadar sta to prva dva znaka v ukazu za tolmača kot prva vrstica besedilne datoteke. V operacijskem sistemu, podobnem Unixu, nalagalnik programa prisotnost teh dveh znakov razume kot znak, da je datoteka skripta, in poskuša to skripto izvesti z uporabo tolmača, določenega v preostanku prve vrstice v datoteki. V našem primeru gre za tolmača oziroma prevajalnik, ki prevaja ukaze, zapisane v programskem jeziku Python.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici se nahajajo navodila, ki aplikaciji, v kateri ste odprli datoteko s programsko kodo, pove, da mora znake v datoteki interpretirati s kodno tabelo UTF-8.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici so navodila, ki aplikaciji, v kateri ste odprli datoteko s programsko kodo, pove, da mora znake v datoteki interpretirati s kodno tabelo UTF-8.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">4</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S tremi znaki " označujemo večvrstični niz znakov. Če se nahaja na začetku vrstice, Python vse, kar je vmes, interpretira kot komentar in ne izvaja.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S tremi znaki " označujemo večvrstični niz znakov. Če se nahaja na začetku vrstice, Python vse, kar je vmes, interpretira kot komentar in tega ne izvaja.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">6</p></td>
@@ -1614,18 +1606,10 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">15</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če želite lepši izpis, lahko rezultat zapišete v kompleksnejši obliki. Če ste pozorni, je v izvorni kodi vrstica komentirana. Če želite, da se izpiše, je potrebno znak # odstraniti.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če želite lepši izpis, lahko rezultat zapišete v kompleksnejši obliki. Če ste pozorni, je v izvorni kodi vrstica komentirana. Če želite, da se izpiše, je treba znak # odstraniti.</p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Če program zaženete, bo program izpisal zgolj rešitev. Če pa odstranite znak # v vrstici 15, pa bo izpis podoben spodnjemu.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="rouge highlight"><code>Rezultat: 2 * 4 = 8</code></pre>
-</div>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -1644,7 +1628,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <div class="sect3">
 <h4 id="_rešitev_2">2.2.1. Rešitev</h4>
 <div id="naloga002" class="listingblock">
-<div class="title">Programska koda 2. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga002.py">naloga002.py</a></div>
+<div class="title">Izvorna koda 2. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga002.py">naloga002.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -1709,14 +1693,14 @@ Pozdravljen_a, Herman Celjski!</code></pre>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Pripravite program, ki vam bo za podan polmer izračunal ploščino in obseg kroga ter vam izpisal rezultat.</p>
+<p>Pripravite program, ki vam bo za podani polmer izračunal ploščino in obseg kroga ter vam izpisal rezultat.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1">2.3.1. Rešitev #1</h4>
 <div id="naloga003a" class="listingblock">
-<div class="title">Programska koda 3. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003a.py">naloga003a.py</a></div>
+<div class="title">Izvorna koda 3. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003a.py">naloga003a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -1770,7 +1754,7 @@ Pozdravljen_a, Herman Celjski!</code></pre>
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">4</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S tremi znaki " označujemo večvrstične komentarje. Vse, kar je vmes, Python interpretira kot komentar in ne izvaja.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S tremi znaki " označujemo večvrstične komentarje. Vse, kar je vmes, Python interpretira kot komentar in tega ne izvaja.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">6</p></td>
@@ -1795,7 +1779,7 @@ Pozdravljen_a, Herman Celjski!</code></pre>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Če program zaženete, bo program izpisal rešitev v naslednji obliki.</p>
+<p>Če program zaženete, bo izpisal rešitev v naslednji obliki.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1857,7 +1841,7 @@ Obseg kroga s polmerom 5 je 31.400000000000002.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_uporaba_natančnejše_vrednosti_π">2.3.2. Rešitev #2: uporaba natančnejše vrednosti π</h4>
 <div id="naloga003b" class="listingblock">
-<div class="title">Programska koda 4. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003b.py">naloga003b.py</a></div>
+<div class="title">Izvorna koda 4. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003b.py">naloga003b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -1903,7 +1887,7 @@ Obseg kroga s polmerom 5 je 31.400000000000002.</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Če primerjamo <strong>rešitev 1</strong> in <strong>rešitev 2</strong> opazimo, da smo v drugem poskusu dodali vrstici <strong>6</strong> in <strong>7</strong> ter spremenili vrstici <strong>13</strong> in <strong>16</strong>. V vrstici <strong>7</strong> smo vključili Python modul <em>math</em>, ki nam (poleg ostalega) omogoča uporabo matematičnih konstant. Brez te vrstice ne bi mogli uporabiti matematične konstante <em>math.pi</em>, ki nam da natančnejšo vrednost π in boljši končni rezultat.</p>
+<p>Če primerjamo <strong>rešitev 1</strong> in <strong>rešitev 2</strong>, opazimo, da smo v drugem poskusu dodali vrstici <strong>6</strong> in <strong>7</strong> ter spremenili vrstici <strong>13</strong> in <strong>16</strong>. V vrstici <strong>7</strong> smo vključili Python modul <em>math</em>, ki nam (poleg ostalega) omogoča uporabo matematičnih konstant. Brez te vrstice ne bi mogli uporabiti matematične konstante <em>math.pi</em>, ki nam da natančnejšo vrednost π in boljši končni rezultat.</p>
 </div>
 <div class="paragraph">
 <p>Program sedaj vrne bolj natančen rezultat.</p>
@@ -1921,7 +1905,7 @@ Obseg kroga s polmerom 5 je 31.41592653589793.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_3_uporaba_alternativnega_načina_potenciranja">2.3.3. Rešitev #3: uporaba alternativnega načina potenciranja</h4>
 <div id="naloga003c" class="listingblock">
-<div class="title">Programska koda 5. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003c.py">naloga003c.py</a></div>
+<div class="title">Izvorna koda 5. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003c.py">naloga003c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -1972,8 +1956,11 @@ Obseg kroga s polmerom 5 je 31.41592653589793.</code></pre>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_4_uporaba_alternativnega_načina_potenciranja_2">2.3.4. Rešitev #4: uporaba alternativnega načina potenciranja #2</h4>
+<div class="paragraph">
+<p>Ker smo že v <strong>rešitvi 2</strong> vključili modul <em>math</em>, lahko za potenciranje uporabimo tudi njegovo vgrajeno funkcijo <em>math.pow()</em>. Tako lahko v <strong>vrstici 13</strong> polmer <em>r</em> potenciramo v obliki <em>math.pow(r,2)</em>. Funkcija <em>math.pow()</em> potrebuje 2 parametra: prvi je vrednost, ki jo potenciramo, drugi pa označuje potenco. Tudi ta oblika zapisa je enakovredna obema prejšnjima, tako da je izpis identičen.</p>
+</div>
 <div id="naloga003d" class="listingblock">
-<div class="title">Programska koda 6. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003d.py">naloga003d.py</a></div>
+<div class="title">Izvorna koda 6. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003d.py">naloga003d.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2018,14 +2005,11 @@ Obseg kroga s polmerom 5 je 31.41592653589793.</code></pre>
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>Ker smo že v <strong>rešitvi 2</strong> vključili modul <em>math</em>, lahko za potenciranje uporabimo tudi njegovo vgrajeno funkcijo <em>math.pow()</em>. Tako lahko v <strong>vrstici 13</strong> polmer <em>r</em> potenciramo v obliki <em>math.pow(r,2)</em>. Funkcija <em>math.pow()</em> potrebuje 2 parametra: prvi je vrednost, ki jo potenciramo, drugi parameter pa označuje potenco. Tudi ta oblika zapisa je enakovredna obema prejšnjima, tako da je izpis identičen.</p>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_5_zaokroževanje">2.3.5. Rešitev #5: zaokroževanje</h4>
 <div id="naloga003e" class="listingblock">
-<div class="title">Programska koda 7. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003e.py">naloga003e.py</a></div>
+<div class="title">Izvorna koda 7. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003e.py">naloga003e.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2075,7 +2059,7 @@ Obseg kroga s polmerom 5 je 31.41592653589793.</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Običajno ne potrebujemo tako natančnih vrednosti in jih želimo zakrožiti na manj decimalnih mest. V ta namen lahko uporabimo vgrajeno funkcijo <em>round</em>, kar smo naredili v vrsticah <strong>14</strong> in <strong>18</strong>. Funkcija <em>round()</em> zahteva dva parametra: prvi parameter je številčna vrednost, drugi pa želeno število decimalnih mest. Izpis po tej spremembi se seveda spremeni.</p>
+<p>Običajno ne potrebujemo tako natančnih vrednosti in jih želimo zakrožiti na manj decimalnih mest. V ta namen lahko uporabimo vgrajeno funkcijo <em>round</em>, kar smo naredili v vrsticah <strong>14</strong> in <strong>18</strong>. Funkcija <em>round()</em> zahteva dva parametra: prvi parameter je številčna vrednost, drugi pa želeno število decimalnih mest. Izpis se seveda spremeni.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -2087,7 +2071,7 @@ Obseg kroga s polmerom 5 je 31.42.</pre>
 <div class="sect3">
 <h4 id="_rešitev_6_interaktivni_vnos_polmera_r">2.3.6. Rešitev #6: interaktivni vnos polmera r</h4>
 <div id="naloga003f" class="listingblock">
-<div class="title">Programska koda 8. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003f.py">naloga003f.py</a></div>
+<div class="title">Izvorna koda 8. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003f.py">naloga003f.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2141,10 +2125,7 @@ Obseg kroga s polmerom 5 je 31.42.</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Da ne bi bilo potrebno vedno spreminjati programa, ko želimo izračun za drugačno vrednost polmera <em>r</em>, lahko program spremenimo tako, da nas interaktivno vpraša po vrednosti polmera. V ta namen uporabimo vgrajeno funkcijo <em>input</em>, ki uporabnika pozove k vnosu polmera. To smo storili v vrstici <strong>10</strong>. Pri tem je potrebno biti pozoren, saj vgrajena funkcija <em>input</em> vedno vrne spremenljivko tipa <em>string</em>. To pomeni, da moramo dobljeno spremenljivko spremeniti v enega od številskih tipov (<em>int</em>, <em>float</em>), saj nam bo v nasprotnem primeru program vrnil napako. To smo storili v vrstici <strong>12</strong>.</p>
-</div>
-<div class="paragraph">
-<p>Izpis je sedaj podoben spodnjemu.</p>
+<p>Da ne bi bilo treba vedno spreminjati programa, ko želimo izračun za drugačno vrednost polmera <em>r</em>, lahko program spremenimo tako, da nas interaktivno vpraša po vrednosti polmera. V ta namen uporabimo vgrajeno funkcijo <em>input</em>, ki uporabnika pozove k vnosu polmera. To smo storili v vrstici <strong>10</strong>. Pri tem je treba biti pozoren, saj vgrajena funkcija <em>input</em> vedno vrne spremenljivko tipa <em>string</em>. To pomeni, da moramo dobljeno spremenljivko spremeniti v enega od številskih tipov (<em>int</em>, <em>float</em>), saj nam bo v nasprotnem primeru program vrnil napako. To smo storili v vrstici <strong>12</strong>. Izpis je sedaj podoben spodnjemu.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -2162,7 +2143,7 @@ Obseg kroga s polmerom 5.0 je 31.42.</code></pre>
 <td class="content">
 <div class="title">Pozor</div>
 <div class="paragraph">
-<p>Kljub vsem spremembam pa program še vedno ni popoln, saj ne preverja vnosov. To lahko preverite tako, da takrat, ko vas pozove k vnosu polmera <em>r</em> namesto številke vpišete črko. Program se bo v takšnem primeru ustavil z napako.</p>
+<p>Kljub vsem spremembam pa program še vedno ni popoln, saj ne preverja vnosov. To lahko preverite tako, da takrat, ko vas pozove k vnosu polmera <em>r</em>, namesto številke vpišete črko. Program se bo v takšnem primeru ustavil z napako.</p>
 </div>
 </td>
 </tr>
@@ -2188,7 +2169,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_6_interaktivni_vnos_polmera_r_s_kontrolo_vnosa">2.3.7. Rešitev #6: interaktivni vnos polmera r s kontrolo vnosa</h4>
 <div id="naloga003g" class="listingblock">
-<div class="title">Programska koda 9. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003g.py">naloga003g.py</a></div>
+<div class="title">Izvorna koda 9. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga003g.py">naloga003g.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2252,7 +2233,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Razlika med <a href="#naloga003f">Programska koda 8</a> in <a href="#naloga003g">Programska koda 9</a> je zgolj v vrsticah <strong>13-17</strong>. Program v vrstici <strong>14</strong> poskusi pretvoriti vnos iz podatkovnega tipa <em>string</em> v tip <em>float</em>. Če mu to ne uspe, v vrstici <strong>16</strong> izpiše, da vnosna vrednost ne predstavlja številke in se v vrstici <strong>17</strong> ustavi. Če je z vnosom vse v redu, program deluje tako kot <a href="#naloga003f">Programska koda 8</a>.</p>
+<p>Razlika med <a href="#naloga003f">Izvorna koda 8</a> in <a href="#naloga003g">Izvorna koda 9</a> je zgolj v vrsticah <strong>13-17</strong>. Program v vrstici <strong>14</strong> poskusi pretvoriti vnos iz podatkovnega tipa <em>string</em> v tip <em>float</em>. Če mu to ne uspe, v vrstici <strong>16</strong> izpiše, da vnosna vrednost ne predstavlja številke in se v vrstici <strong>17</strong> ustavi. Če je z vnosom vse v redu, program deluje tako kot <a href="#naloga003f">Izvorna koda 8</a>.</p>
 </div>
 <div class="paragraph">
 <p>Izpis v primeru napačnega vnosa je sedaj podoben spodnjemu.</p>
@@ -2278,7 +2259,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_2">2.4.1. Rešitev #1</h4>
 <div id="naloga004a" class="listingblock">
-<div class="title">Programska koda 10. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004a.py">naloga004a.py</a></div>
+<div class="title">Izvorna koda 10. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004a.py">naloga004a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2299,10 +2280,12 @@ ValueError: could not convert string to float: 'r'</code></pre>
 17
 18
 19
+20
 </pre></td><td class="code"><pre><span class="c1">#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 </span>
 <span class="sh">"""</span><span class="s"> Program, ki sešteje podani števili. </span><span class="sh">"""</span>
+
 
 <span class="c1"># Izpišemo, za kakšen program gre
 </span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
@@ -2321,6 +2304,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 4. Razlaga</caption>
 <colgroup>
@@ -2370,16 +2354,19 @@ Rezultat: 1 + 2 = 12</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Zakaj ne sešteje vrednosti? Zato, ker nam Python funkcija <em>input</em> vrne niz znakov (vrednost tipa <em>string</em>) in ne enega od številskih tipov (<em>integer</em>, <em>float</em>, &#8230;&#8203;). S seštevanjem dveh vrednosti v 16. vrstici kode (<a href="#naloga004a">Programska koda 10</a>) smo tako sestavili dva niza znakov (postavili enega k drugemu) in ne sešteli. To se zgodi tudi v primeru, da vpišemo številke, saj funkcija input v vsakem primeru vrne vrednost tipa <em>string</em>.</p>
+<p>Zakaj ne sešteje vrednosti? Zato, ker nam Python funkcija <em>input</em> vrne niz znakov (vrednost tipa <em>string</em>) in ne enega od številskih tipov (<em>integer</em>, <em>float</em> &#8230;&#8203;). S seštevanjem dveh vrednosti v 16. vrstici kode (<a href="#naloga004a">Izvorna koda 10</a>) smo tako sestavili dva niza znakov (postavili enega k drugemu) in ne sešteli. To se zgodi tudi, če vpišemo številke, saj funkcija input v vsakem primeru vrne vrednost tipa <em>string</em>.</p>
 </div>
 <div class="paragraph">
-<p>Rešitev je pretvorba podatkovnega tipa <em>string</em> v enega od številskih tipov (<em>integer</em> ali <em>float</em>). Če pretvorimo v <em>integer</em>, bo program deloval, a zgolj za cela števila, pri vnosu decimalnih števil bo vrnil napako, zato bomo pretvorili v podatkovni tip <em>float</em>.</p>
+<p>Rešitev je pretvorba podatkovnega tipa <em>string</em> v enega od številskih tipov (<em>integer</em> ali <em>float</em>). Če pretvorimo v <em>integer</em>, bo program deloval, a zgolj za cela števila, pri vnosu decimalnih števil bo vrnil napako, zato bomo pretvorili v številski tip <em>float</em>.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_2_2">2.4.2. Rešitev #2</h4>
+<div class="paragraph">
+<p>Razlika med <a href="#naloga004a">Izvorna koda 10</a> in <a href="#naloga004b">Izvorna koda 11</a> je zgolj v vrsticah 16 in 17, kjer smo spremenili tipa spremenljivk <em>sestevanec1</em> in <em>sestevanec2</em> iz <em>string</em> v <em>float</em>. Vse ostalo ostane enako.</p>
+</div>
 <div id="naloga004b" class="listingblock">
-<div class="title">Programska koda 11. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004b.py">naloga004b.py</a></div>
+<div class="title">Izvorna koda 11. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004b.py">naloga004b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2404,10 +2391,12 @@ Rezultat: 1 + 2 = 12</code></pre>
 21
 22
 23
+24
 </pre></td><td class="code"><pre><span class="c1">#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 </span>
 <span class="sh">"""</span><span class="s"> Program, ki sešteje podani števili. </span><span class="sh">"""</span>
+
 
 <span class="c1"># Izpišemo, za kakšen program gre
 </span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
@@ -2431,9 +2420,6 @@ Rezultat: 1 + 2 = 12</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Razlika med <a href="#naloga004a">Programska koda 10</a> in <a href="#naloga004b">Programska koda 11</a> je zgolj v vrsticah 16 in 17, kjer smo spremenili tipa spremenljivk <em>sestevanec1</em> in <em>sestevanec2</em> iz <em>string</em> v <em>float</em>. Vse ostalo ostane enako.</p>
-</div>
-<div class="paragraph">
 <p>Program po tej spremembi sešteje obe podani števili.</p>
 </div>
 <div class="listingblock">
@@ -2446,14 +2432,11 @@ Vnesite drugo število: 2
 Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>Seveda pa so lahko rešitve tudi drugačne.</p>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_3">2.4.3. Rešitev #3</h4>
 <div id="naloga004c" class="listingblock">
-<div class="title">Programska koda 12. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004c.py">naloga004c.py</a></div>
+<div class="title">Izvorna koda 12. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004c.py">naloga004c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2478,10 +2461,12 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 21
 22
 23
+24
 </pre></td><td class="code"><pre><span class="c1">#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 </span>
 <span class="sh">"""</span><span class="s"> Program, ki sešteje podani števili. </span><span class="sh">"""</span>
+
 
 <span class="c1"># Izpišemo, za kakšen program gre
 </span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
@@ -2511,7 +2496,7 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_4">2.4.4. Rešitev #4</h4>
 <div id="naloga004d" class="listingblock">
-<div class="title">Programska koda 13. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004d.py">naloga004d.py</a></div>
+<div class="title">Izvorna koda 13. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004d.py">naloga004d.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2536,10 +2521,12 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 21
 22
 23
+24
 </pre></td><td class="code"><pre><span class="c1">#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 </span>
 <span class="sh">"""</span><span class="s"> Program, ki sešteje podani števili. </span><span class="sh">"""</span>
+
 
 <span class="c1"># Izpišemo, za kakšen program gre
 </span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
@@ -2563,10 +2550,10 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Tako primer <a href="#naloga004c">Programska koda 12</a> kot tudi <a href="#naloga004d">Programska koda 13</a> se od <a href="#naloga004b">Programska koda 11</a> razlikujeta zgolj v vrstici 23, kjer s pomočjo funkcije <em>print</em> izpišemo niz znakov (<em>string</em>), ki ga vsakič pripravimo drugače. Vsi načini so enakovredni, gre le za berljivost izvorne kode. Bodite pozorni na primer <a href="#naloga004d">Programska koda 13</a>, kjer v omenjeni vrstici uporabimo tudi funkcijo <em>str</em>, ki spremeljivko tipa <em>float</em> spremeni v spremenljivko tipa <em>string</em>! To storimo zato, ker je potrebno pri programiranju operirati s spremenljivkami istega tipa in v tem primeru za izpis združujemo nize znakov.</p>
+<p>Tako primer <a href="#naloga004c">Izvorna koda 12</a> kot tudi <a href="#naloga004d">Izvorna koda 13</a> se od <a href="#naloga004b">Izvorna koda 11</a> razlikujeta zgolj v vrstici 23, kjer s pomočjo funkcije <em>print</em> izpišemo niz znakov (<em>string</em>), ki ga vsakič pripravimo drugače. Vsi načini so enakovredni, gre le za berljivost izvorne kode. Bodite pozorni na primer <a href="#naloga004d">Izvorna koda 13</a>, kjer v omenjeni vrstici uporabimo tudi funkcijo <em>str</em>, ki spremeljivko tipa <em>float</em> spremeni v spremenljivko tipa <em>string</em>! To storimo zato, ker je treba pri programiranju operirati s spremenljivkami istega tipa in v tem primeru za izpis združujemo nize znakov.</p>
 </div>
 <div class="paragraph">
-<p>V svojih programih lahko uporabljate kateri koli način. Izpis vseh treh programov je identičen.</p>
+<p>V svojih programih lahko uporabljate kateri koli način. Izpis vseh treh programov je enak.</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -2577,7 +2564,7 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 <td class="content">
 <div class="title">Pozor</div>
 <div class="paragraph">
-<p>Kljub tej spremembi program še vedno ne deluje v vseh primerih povsem pravilno, saj ne preverja vnosov. Da je res tako, lahko preverite tudi sami, tako, da namesto številk vnesete črke ali pa decimalne številke zapišete z vejico. Program se bo v takšnem primeru ustavil z napako. Seveda lahko zajamemo tudi primere napačnih vnosov.</p>
+<p>Kljub tej spremembi program še vedno ne deluje pravilno v vseh primerih, saj ne preverja vnosov. Da je res tako, lahko preverite tudi sami, tako da namesto številk vnesete črke ali pa decimalne številke zapišete z vejico. Program se bo v takšnem primeru ustavil z napako. Seveda lahko zajamemo tudi primere napačnih vnosov.</p>
 </div>
 </td>
 </tr>
@@ -2587,7 +2574,7 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_5_preverjanje_vnosov">2.4.5. Rešitev #5: preverjanje vnosov</h4>
 <div id="naloga004e" class="listingblock">
-<div class="title">Programska koda 14. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004e.py">naloga004e.py</a></div>
+<div class="title">Izvorna koda 14. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga004e.py">naloga004e.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2661,7 +2648,7 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>V tej rešitvi preverjamo tudi uporabnikove vnose. Vse prejšnje rešitve (<a href="#naloga004a">Programska koda 10</a>, <a href="#naloga004b">Programska koda 11</a>, <a href="#naloga004c">Programska koda 12</a> in <a href="#naloga004d">Programska koda 13</a>) namreč odpovedo, če uporabnik namesto številke vnese kakšen drug znak. Zato smo v tej rešitvi uvedli preverjanje izjem. Tako v <strong>vrtici 15</strong> povemo, da bomo v <strong>vrstici 16</strong> poskusili spremenljivko <em>sestevanec1</em> pretvoriti iz tipa <em>string</em> v tip <em>float</em>:</p>
+<p>V tej rešitvi preverjamo tudi uporabnikove vnose. Vse prejšnje rešitve (<a href="#naloga004a">Izvorna koda 10</a>, <a href="#naloga004b">Izvorna koda 11</a>, <a href="#naloga004c">Izvorna koda 12</a> in <a href="#naloga004d">Izvorna koda 13</a>) namreč odpovedo, če uporabnik namesto številke vnese kakšen drug znak. Zato smo v tej rešitvi uvedli preverjanje izjem. Tako v <strong>vrstici 15</strong> povemo, da bomo v <strong>vrstici 16</strong> poskusili spremenljivko <em>sestevanec1</em> pretvoriti iz tipa <em>string</em> v tip <em>float</em>:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2691,7 +2678,7 @@ Rezultat: 1.0 + 2.0 = 3.0</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_računanje_brez_preverjanja_vnosov">2.5.1. Rešitev #1: računanje brez preverjanja vnosov</h4>
 <div id="naloga005a" class="listingblock">
-<div class="title">Programska koda 15. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga005a.py">naloga005a.py</a></div>
+<div class="title">Izvorna koda 15. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga005a.py">naloga005a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2814,9 +2801,8 @@ Obseg pravokotnika s stranicama 2.0 in 4.0 je 12.0.</code></pre>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Pozor</div>
 <div class="paragraph">
-<p>Kljub tej spremembi program, tako kot tudi v <a href="#naloga4">primeru 2.4: seštevanje števil</a>, še vedno ne deluje v vseh primerih povsem pravilno, saj ne preverja vnosov. Da je res tako, lahko preverite tudi sami, tako, da namesto številk za dolžino stranice a ali b vnesete črke ali pa decimalne številke zapišete z vejico. Program se bo v takšnem primeru ustavil z napako.</p>
+<p>Kljub tej spremembi program, tako kot tudi v <a href="#naloga4">primeru 2.4: seštevanje števil</a>, še vedno ne deluje v vseh primerih povsem pravilno, saj ne preverja vnosov. Da je res tako, lahko preverite tudi sami, tako da namesto številk za dolžino stranice a ali b vnesete črke ali pa decimalne številke zapišete z vejico. Program se bo v takšnem primeru ustavil z napako.</p>
 </div>
 </td>
 </tr>
@@ -2846,7 +2832,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_računanje_s_preverjanjem_vnosov">2.5.2. Rešitev #2: računanje s preverjanjem vnosov</h4>
 <div id="naloga005b" class="listingblock">
-<div class="title">Programska koda 16. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga005b.py">naloga005b.py</a></div>
+<div class="title">Izvorna koda 16. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga005b.py">naloga005b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -2924,7 +2910,7 @@ ValueError: could not convert string to float: 'r'</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Razlika med <a href="#naloga005a">Programska koda 15</a> in <a href="#naloga005b">Programska koda 16</a> je zgolj v vrsticah <strong>14-19</strong> in <strong>23-28</strong>. Sedaj že vemo: program v vrsticah <strong>16</strong> in <strong>25</strong> poskusi pretvoriti vnos iz podatkovnega tipa <em>string</em> v tip <em>float</em>. Če mu to ne uspe, v vrsticah <strong>18</strong> in <strong>27</strong> izpiše, da tega ne more storiti, in se v vrstici <strong>19</strong> ali pa <strong>28</strong> ustavi. Če je z vnosom vse v redu, program deluje tako kot <a href="#naloga005a">Programska koda 15</a>.</p>
+<p>Razlika med <a href="#naloga005a">Izvorna koda 15</a> in <a href="#naloga005b">Izvorna koda 16</a> je zgolj v vrsticah <strong>14-19</strong> in <strong>23-28</strong>. Sedaj že vemo: program v vrsticah <strong>16</strong> in <strong>25</strong> poskusi pretvoriti vnos iz podatkovnega tipa <em>string</em> v tip <em>float</em>. Če mu to ne uspe, v vrsticah <strong>18</strong> in <strong>27</strong> izpiše, da tega ne more storiti, in se v vrstici <strong>19</strong> ali pa <strong>28</strong> ustavi. Če je z vnosom vse v redu, program deluje tako kot <a href="#naloga005a">Izvorna koda 15</a>.</p>
 </div>
 <div class="paragraph">
 <p>Sedaj je izpis v primeru napačnega vnosa podoben naslednjemu.</p>
@@ -2949,14 +2935,14 @@ Podali ste 'r', kar ni število.</code></pre>
 <p>Napišite program, ki mu uporabnik vpiše temperaturo v Fahrenheitovih stopinjah, program pa jo izpiše v Celzijevih (°F &#8594; °C). Med temperaturama pretvarjamo po formuli °C = 5/9 (°F – 32).</p>
 </div>
 <div class="paragraph">
-<p>Za potrebe Američanov napiši še program, ki računa v nasprotni smeri (°C &#8594; °F).</p>
+<p>Pripravite še program, ki računa v nasprotni smeri (°C &#8594; °F).</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1_f_c">2.6.1. Rešitev #1: °F &#8594; °C</h4>
 <div id="naloga006a" class="listingblock">
-<div class="title">Programska koda 17. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006a.py">naloga006a.py</a></div>
+<div class="title">Izvorna koda 17. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006a.py">naloga006a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3057,7 +3043,7 @@ Vnesite °F: 56
 <div class="sect3">
 <h4 id="_rešitev_2_c_f">2.6.2. Rešitev #2: °C &#8594; °F</h4>
 <div id="naloga006b" class="listingblock">
-<div class="title">Programska koda 18. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006b.py">naloga006b.py</a></div>
+<div class="title">Izvorna koda 18. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006b.py">naloga006b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3136,13 +3122,13 @@ Vnesite °C: 30
 <div class="sect3">
 <h4 id="_rešitev_3_pretvorba_v_obe_smeri">2.6.3. Rešitev #3: Pretvorba v obe smeri</h4>
 <div class="paragraph">
-<p>Seveda so možne tudi rešitve, kjer lahko v en program združimo pretvorbi v obe smeri - združimo <a href="#naloga006a">Programska koda 17</a> in <a href="#naloga006b">Programska koda 18</a> v skupen program.</p>
+<p>Seveda so možne tudi rešitve, kjer lahko v en program združimo pretvorbi v obe smeri - združimo <a href="#naloga006a">Izvorna koda 17</a> in <a href="#naloga006b">Izvorna koda 18</a> v skupen program.</p>
 </div>
 <div class="paragraph">
 <p>Ena od možnih rešitev je naslednja.</p>
 </div>
 <div id="naloga006c" class="listingblock">
-<div class="title">Programska koda 19. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006c.py">naloga006c.py</a></div>
+<div class="title">Izvorna koda 19. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga006c.py">naloga006c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3275,7 +3261,7 @@ Vnesite °C: 30
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">17</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici s pomočjo funkcije <em>strip()</em> iz spremenljivke <em>vnos</em> odstranimo morebitne presledke pred in za nizom znakov. To pomeni, da če uporabnik namesto '30 C' vnese ' 30 C ', mi niz znakov spremenimo tako, da bo vrednost spremenljivke <em>vnos</em> enaka '30 C'.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici s pomočjo funkcije <em>strip()</em> iz spremenljivke <em>vnos</em> odstranimo morebitne presledke pred in za nizom znakov. To pomeni, da če uporabnik namesto '30 C' vnese ' 30 C ', niz znakov spremenimo tako, da bo vrednost spremenljivke <em>vnos</em> enaka '30 C'.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">20</p></td>
@@ -3295,11 +3281,11 @@ Vnesite °C: 30
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">36-41</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je vrednost spremenljivke <em>lestvica</em> enaka veliki ali mali črki 'C'. Če je, je uporabnik vnesel temperaturo v °C, zato pretvorimo v °F in rezultat izpišemo. V tem delu je koda identična <a href="#naloga006b">Programska koda 18</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je vrednost spremenljivke <em>lestvica</em> enaka veliki ali mali črki 'C'. Če je, je uporabnik vnesel temperaturo v °C, zato jo pretvorimo v °F in rezultat izpišemo. V tem delu je koda enaka <a href="#naloga006b">Izvorna koda 18</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">42-50</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če vrednost spremenljivke <em>lestvica</em> ni enaka veliki ali mali črki 'C', je pa enaka veliki ali mali črki 'F', je uporabnik vnesel temperaturo v °F, zato pretvorimo v °C in rezultat izpišemo. V tem delu je koda identična <a href="#naloga006a">Programska koda 17</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če vrednost spremenljivke <em>lestvica</em> ni enaka veliki ali mali črki 'C', je pa enaka veliki ali mali črki 'F', je uporabnik vnesel temperaturo v °F, zato pretvorimo v °C in rezultat izpišemo. V tem delu je koda enaka <a href="#naloga006a">Izvorna koda 17</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">51-53</p></td>
@@ -3348,15 +3334,12 @@ Niste določili, po kateri lestvici je vrednost, ki ste jo podali.</code></pre>
 <div class="paragraph">
 <p>Napišite program, ki mu podate število, program pa izpiše, ali gre za popoln kvadrat ali ne.</p>
 </div>
-<div class="paragraph">
-<p>(<em>Popoln kvadrat je v matematiki pozitivno celo število, ki se ga lahko zapiše kot kvadrat drugega celega števila.</em>)</p>
-</div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1_s_pomočjo_modula_math_in_funkcije_math_sqrt">2.7.1. Rešitev #1: s pomočjo modula <em>math</em> in funkcije <em>math.sqrt()</em></h4>
 <div id="naloga007a" class="listingblock">
-<div class="title">Programska koda 20. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007a.py">naloga007a.py</a></div>
+<div class="title">Izvorna koda 20. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007a.py">naloga007a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3446,10 +3429,10 @@ Niste določili, po kateri lestvici je vrednost, ki ste jo podali.</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Posebnost programa je uporaba funkcije <em>math.sqrt()</em> v <strong>vrstici 30</strong>, ki vrne koren števila. Seveda je za to, da lahko funkcijo <em>math.sqrt()</em> sploh uporabimo, potrebno vključiti modul <em>math</em>, kar smo storili v <strong>vrstici 12</strong>.</p>
+<p>Posebnost programa je uporaba funkcije <em>math.sqrt()</em> v <strong>vrstici 30</strong>, ki vrne koren števila. Seveda je za to, da lahko funkcijo <em>math.sqrt()</em> sploh uporabimo, treba vključiti modul <em>math</em>, kar smo storili v <strong>vrstici 12</strong>.</p>
 </div>
 <div class="paragraph">
-<p>Prav tako sta novi funkciji <em>is_integer()</em> ter <em>int()</em>. Funkcijo <em>is_integer()</em> smo uporabili v <strong>vrstici 33</strong>, da smo preverili, če je koren, izračunan v <strong>vrstici 30</strong>, celo število. Če je, potem imamo popoln kvadrat, in lahko neznanko <em>stevilo</em> pretvorimo v podatkovni tip <em>integer</em>, kar storimo v <strong>vrstici 35</strong> s funkcijo <em>int()</em>. To storimo zgolj zato, da nam program vrne celo število (kar je logično, če gre za popoln koren) in ne izpisuje decimalk.</p>
+<p>Prav tako sta novi funkciji <em>is_integer()</em> ter <em>int()</em>. Funkcijo <em>is_integer()</em> smo uporabili v <strong>vrstici 33</strong>, da smo preverili, če je koren, izračunan v <strong>vrstici 30</strong>, celo število. Če je, potem imamo popoln kvadrat in lahko neznanko <em>stevilo</em> pretvorimo v številski tip <em>integer</em>, kar storimo v <strong>vrstici 35</strong> s funkcijo <em>int()</em>. To storimo zgolj zato, da nam program vrne celo število (kar je logično, če gre za popoln koren) in ne izpisuje decimalk.</p>
 </div>
 <div class="paragraph">
 <p>Ostanejo nam samo še ustrezni izpisi.</p>
@@ -3477,7 +3460,7 @@ Podano število 9 je popoln kvadrat števila 3!
 <p>Če ne želite vključiti modula <em>math</em>, lahko rešitev poiščete drugače.</p>
 </div>
 <div id="naloga007b" class="listingblock">
-<div class="title">Programska koda 21. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007b.py">naloga007b.py</a></div>
+<div class="title">Izvorna koda 21. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007b.py">naloga007b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3561,10 +3544,10 @@ Podano število 9 je popoln kvadrat števila 3!
 </div>
 </div>
 <div class="paragraph">
-<p>Razlik med <a href="#naloga007a">Programska koda 20</a> in <a href="#naloga007b">Programska koda 21</a> ni veliko. Opazite lahko, da v tem primeru nismo vključili modula <em>math</em> in da smo v <strong>vrstici 27</strong> za korenjenje uporabili vgrajeno možnost potenciranja (za kar uporabimo dva znaka **). Rezultat (in tudi izpis) je identičen <a href="#naloga007a">Programska koda 20</a>.</p>
+<p>Razlik med <a href="#naloga007a">Izvorna koda 20</a> in <a href="#naloga007b">Izvorna koda 21</a> ni veliko. Opazite lahko, da v tem primeru nismo vključili modula <em>math</em> in da smo v <strong>vrstici 27</strong> za korenjenje uporabili vgrajeno možnost potenciranja (za kar uporabimo dva znaka **). Rezultat (in tudi izpis) je enak <a href="#naloga007a">Izvorna koda 20</a>.</p>
 </div>
 <div class="paragraph">
-<p>Vendar pa tako <a href="#naloga007a">Programska koda 20</a> in <a href="#naloga007b">Programska koda 21</a> odpovesta, če namesto številke vnesete črko. Izpis bo v tem primeru podoben naslednjemu.</p>
+<p>Vendar pa tako <a href="#naloga007a">Izvorna koda 20</a> in <a href="#naloga007b">Izvorna koda 21</a> odpovesta, če namesto številke vnesete črko. Izpis bo v tem primeru podoben naslednjemu.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -3588,8 +3571,11 @@ ValueError: could not convert string to float: 'rk'</code></pre>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_3_s_kontrolami_vnosa">2.7.3. Rešitev #3: s kontrolami vnosa</h4>
+<div class="paragraph">
+<p>Razlika je zgolj v <strong>vrsticah 27 do 35</strong>, kjer uvedemo kontrolo vnosa. Če uporabnik vnese neštevilčno vrednost, se funkcija <em>float()</em> v <strong>vrstici 29</strong> ne more izvesti, zato program izpiše obvestilo, da je uporabnik podal niz znakov in zato preverjanje ni smiselno. Program se nato ustavi.</p>
+</div>
 <div id="naloga007c" class="listingblock">
-<div class="title">Programska koda 22. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007c.py">naloga007c.py</a></div>
+<div class="title">Izvorna koda 22. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga007c.py">naloga007c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3697,9 +3683,6 @@ ValueError: could not convert string to float: 'rk'</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Razlika je zgolj v <strong>vrsticah 27 do 35</strong>, kjer uvedemo kontrolo vnosa. Če uporabnik vnese neštevilčno vrednost, se funkcija <em>float()</em> v <strong>vrstici 29</strong> ne more izvesti, zato program izpiše obvestilo, da je uporabnik podal niz znakov in zato preverjanje ni smiselno. Program se nato ustavi.</p>
-</div>
-<div class="paragraph">
 <p>Izpis je v takšnem primeru podoben spodnjemu.</p>
 </div>
 <div class="listingblock">
@@ -3717,9 +3700,9 @@ Preverjanje ni smiselno!
 </div>
 </div>
 <div class="paragraph">
-<p>Če je pretvorba v <strong>vrstici 29</strong> uspešna, se program izvede tako kot se je v primeru <a href="#naloga007a">Programska koda 20</a> in <a href="#naloga007b">Programska koda 21</a>.
-&lt;&lt;&lt;</p>
+<p>Če je pretvorba v <strong>vrstici 29</strong> uspešna, se program izvede tako, kot se je v primeru <a href="#naloga007a">Izvorna koda 20</a> in <a href="#naloga007b">Izvorna koda 21</a>.</p>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect2">
@@ -3739,12 +3722,11 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<div class="title">Reševanje</div>
 <div class="paragraph">
-<p>Vprašajmo se, kako bi lahko nalogo sploh rešili. Načinov je seveda mnogo, a če izkoristimo moč računalnika in poiščemo najpreprostejšo, lahko rešitev poiščemo tako, da se sprehodimo po vseh celih številkah od 1 do vpisane in preverjamo, ali je rezultat deljenja vpisanega števila in trenutnega števila celo število. Tako dobimo vse možne delitelje.</p>
+<p>Vprašajmo se, kako bi lahko nalogo sploh rešili. Načinov je seveda mnogo, a če izkoristimo moč računalnika in poiščemo najpreprostejšo, lahko rešitev poiščemo tako, da se sprehodimo po vseh celih številih od 1 do vpisane in preverjamo, ali je rezultat deljenja vpisanega števila in trenutnega števila celo število. Tako dobimo vse možne delitelje.</p>
 </div>
 <div class="paragraph">
-<p>Nalogo bi lahko rešili s pomožjo zanke <em>for</em>, a v tem primeru smo izbrali zanko <em>while</em>.</p>
+<p>Nalogo bi lahko rešili s pomočjo zanke <em>for</em>, a v tem primeru smo izbrali zanko <em>while</em>.</p>
 </div>
 </td>
 </tr>
@@ -3753,7 +3735,7 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 <div class="sect3">
 <h4 id="_rešitev_1_izpis_vsakega_delitelja_v_novi_vrstici">2.8.1. Rešitev #1: izpis vsakega delitelja v novi vrstici</h4>
 <div id="naloga008a" class="listingblock">
-<div class="title">Programska koda 23. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008a.py">naloga008a.py</a></div>
+<div class="title">Izvorna koda 23. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008a.py">naloga008a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3833,11 +3815,11 @@ Vsak delitelj naj bo izpisan zgolj enkrat, delitelji pa naj bodo urejeni po veli
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">21</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici uvedemo novo spremenljivko <em>trenutno_stevilo</em> in ji dodelimo vrednost 1. To spremenljivko potrebujemo zato, da vemo, kateri delitelj trenutno preverjamo ter tudi zato, da lahko vrednost trenutnega števila ob koncu vsakega obhoda zanke povečamo za 1 (to storimo v <strong>vrstici 28</strong>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V tej vrstici uvedemo novo spremenljivko <em>trenutno_stevilo</em> in ji dodelimo vrednost 1. To spremenljivko potrebujemo zato, da vemo, kateri delitelj trenutno preverjamo, ter tudi zato, da lahko vrednost trenutnega števila ob koncu vsakega obhoda zanke povečamo za 1 (to storimo v <strong>vrstici 28</strong>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">22</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Začnemo izvajati zanko <em>while</em>. Ta zanka se izvaja tako dolgo, dokler je vrednost spremenljivke <em>trenutno_stevilo</em> manjše ali enako vrednosti spremenljivke <em>stevilo</em>, to je številke, ki jo je uporabnik vnesel in ki jo preverjamo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Začnemo izvajati zanko <em>while</em>. Ta zanka se izvaja tako dolgo, dokler je vrednost spremenljivke <em>trenutno_stevilo</em> manjša ali enaka vrednosti spremenljivke <em>stevilo</em>, to je številke, ki jo je uporabnik vnesel in ki jo preverjamo.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">24</p></td>
@@ -3870,7 +3852,7 @@ Delitelji števila 123 so:
 </div>
 </div>
 <div class="paragraph">
-<p>V primeru, da vpišete decimalno število ali pa niz znakov, se program tudi prav lepo ustavi.</p>
+<p>Če vpišete decimalno število ali pa niz znakov, se program tudi prav lepo ustavi.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -3905,10 +3887,10 @@ Niste podali celega števila!</code></pre>
 <p>V tem primeru program ne bo vrnil napake, temveč se bo izvedel, a ne bo našel nobenega delitelja. Zakaj?</p>
 </div>
 <div class="paragraph">
-<p>Razlog je v naši zanki, ki se začne v <strong>vrstici 22</strong>. Zanka <em>while</em> se namreč v takšnem primeru izvaja vse dokler je vrednost spremenljivke <em>trenutno_stevilo</em> manjša ali enaka vrednosti spremenljivke <em>stevilo</em>. V spornem primeru je vrednost spremenljivke <em>stevilo</em> negativna, <em>trenutno_stevilo</em> pa ima vrednost 1. Pogoj je torej izpolnjen še preden se zanka izvede prvič.</p>
+<p>Razlog je v naši zanki, ki se začne v <strong>vrstici 22</strong>. Zanka <em>while</em> se namreč v takšnem primeru izvaja, vse dokler je vrednost spremenljivke <em>trenutno_stevilo</em> manjša ali enaka vrednosti spremenljivke <em>stevilo</em>. V spornem primeru je vrednost spremenljivke <em>stevilo</em> negativna, <em>trenutno_stevilo</em> pa ima vrednost 1. Pogoj je torej izpolnjen, še preden se zanka izvede prvič.</p>
 </div>
 <div class="paragraph">
-<p>Seveda bi lahko program popravili na več načinov, a mi ga bomo tako, da bomo negativno število spremenili v pozitivno. To lahko storimo s pogojnimi stavki (če npr. je število negativno, ga pomnoži z -1), lahko pa uporabimo vgrajeno funkcijo <em>abs()</em>, ki za podano število vrne njegovo absolutno vrednost, kar smo storili v <a href="#naloga008b">Programska koda 24</a>. Rešitev je seveda še več.</p>
+<p>Seveda bi lahko program popravili na več načinov, a mi ga bomo tako, da bomo negativno število spremenili v pozitivno. To lahko storimo s pogojnimi stavki (če npr. je število negativno, ga pomnoži z -1), lahko pa uporabimo vgrajeno funkcijo <em>abs()</em>, ki za podano število vrne njegovo absolutno vrednost, kar smo storili v <a href="#naloga008b">Izvorna koda 24</a>. Rešitev je seveda še več.</p>
 </div>
 </td>
 </tr>
@@ -3918,7 +3900,7 @@ Niste podali celega števila!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_izpis_deliteljev_za_absolutno_vrednost_celega_števila">2.8.2. Rešitev #2: izpis deliteljev za absolutno vrednost celega števila</h4>
 <div id="naloga008b" class="listingblock">
-<div class="title">Programska koda 24. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008b.py">naloga008b.py</a></div>
+<div class="title">Izvorna koda 24. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008b.py">naloga008b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -3988,7 +3970,7 @@ Niste podali celega števila!</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Ob pozornem pregledu in primerjavi <a href="#naloga008a">Programska koda 23</a> in <a href="#naloga008b">Programska koda 24</a> opazimo, da je razlika (če zanemarimo komentarje) zgolj v <strong>vrstici 19</strong>, kjer smo zapisali, naj program od te vrstice dalje išče delitelje za absolutno vrednost (pozitivno celo število) vnosa.</p>
+<p>Ob pozornem pregledu in primerjavi <a href="#naloga008a">Izvorna koda 23</a> in <a href="#naloga008b">Izvorna koda 24</a> opazimo, da je razlika (če zanemarimo komentarje) zgolj v <strong>vrstici 19</strong>, kjer smo zapisali, naj program od te vrstice dalje išče delitelje za absolutno vrednost (pozitivno celo število) vnosa.</p>
 </div>
 <div class="paragraph">
 <p>Program sedaj deluje tudi za negativna števila, a vrne delitelje njegove absolutne vrednosti.</p>
@@ -4011,10 +3993,10 @@ Delitelji števila 16 so:
 <div class="sect3">
 <h4 id="_rešitev_3_izpis_deliteljev_v_eni_vrstici">2.8.3. Rešitev #3: izpis deliteljev v eni vrstici</h4>
 <div class="paragraph">
-<p>Tako <a href="#naloga008a">Programska koda 23</a> kot <a href="#naloga008b">Programska koda 24</a> izpišeta delitelje po vrsticah, kar je prostorsko potratno, mi pa seveda znamo program popraviti tako, da bodo delitelji izpisani v eni vrstici.</p>
+<p>Tako <a href="#naloga008a">Izvorna koda 23</a> kot <a href="#naloga008b">Izvorna koda 24</a> izpišeta delitelje po vrsticah, kar je prostorsko potratno, mi pa seveda znamo program popraviti tako, da bodo delitelji izpisani v eni vrstici.</p>
 </div>
 <div id="naloga008c" class="listingblock">
-<div class="title">Programska koda 25. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008c.py">naloga008c.py</a></div>
+<div class="title">Izvorna koda 25. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga008c.py">naloga008c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4161,7 +4143,7 @@ Delitelji števila 12 so: 1, 2, 3, 4, 6, 12</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_5">2.9.1. Rešitev</h4>
 <div id="naloga009" class="listingblock">
-<div class="title">Programska koda 26. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga009.py">naloga009.py</a></div>
+<div class="title">Izvorna koda 26. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga009.py">naloga009.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4273,7 +4255,7 @@ Delitelji števila 12 so: 1, 2, 3, 4, 6, 12</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>V primeru, da podano število ni praštevilo, je izpis seveda drugačen.</p>
+<p>Če podano število ni praštevilo, je izpis seveda drugačen.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -4305,7 +4287,7 @@ Niste podali celega števila!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_6">2.10.1. Rešitev</h4>
 <div id="naloga010" class="listingblock">
-<div class="title">Programska koda 27. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga010.py">naloga010.py</a></div>
+<div class="title">Izvorna koda 27. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga010.py">naloga010.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4409,7 +4391,7 @@ Niste podali celega števila!</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>prestopno</em> in ji določimo vrednost <em>False</em>. Tako predvidevamo, da vnešena letnica ne označuje prestopnega leta, razen če bomo ugotovili drugače.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>prestopno</em> in ji določimo vrednost <em>False</em>. Tako predvidevamo, da vnesena letnica ne označuje prestopnega leta, razen če bomo ugotovili drugače.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">26</p></td>
@@ -4421,7 +4403,7 @@ Niste podali celega števila!</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">32</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če je letnica deljiva s štiri ter ni deljiva s 100 in 400, potem je leto prestopno. Delitelja 400 in 100 smo preverili že v prejšnjih dveh pogojih.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če je letnica deljiva s 4 ter ni deljiva s 100 in 400, potem je leto prestopno. Delitelja 400 in 100 smo preverili že v prejšnjih dveh pogojih.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">35</p></td>
@@ -4433,6 +4415,7 @@ Niste podali celega števila!</code></pre>
 </tr>
 </tbody>
 </table>
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p>Primer izpisa programa.</p>
 </div>
@@ -4460,7 +4443,7 @@ Leto 2023 NI prestopno!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_z_vmesno_spremenljivko">2.11.1. Rešitev #1: z vmesno spremenljivko</h4>
 <div id="naloga011a" class="listingblock">
-<div class="title">Programska koda 28. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga011a.py">naloga011a.py</a></div>
+<div class="title">Izvorna koda 28. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga011a.py">naloga011a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4539,7 +4522,7 @@ neznanki: <em>stevilo_ena</em> in <em>stevilo_dva</em> ter obema priredimo/dolo�
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">22</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Izvedemo zanko za vse vrednosti od 1 do <em>stevilo</em> (ki ga je vnesel uporabnik)+1. Zakaj <em>stevilo</em> povečamo za 1? Ker nam funkcija <em>range(zacetek,konec)</em> vrne vrednosti po formuli r[i] = začetek + korak*i, kjer je i &gt;= 0 in r[i] &lt; konec. Korak je v našem primeru <em>1</em>, saj ga nismo določili drugače.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Izvedemo zanko za vse vrednosti od 1 do <em>stevilo</em> (ki ga je vnesel uporabnik) + 1. Zakaj <em>stevilo</em> povečamo za 1? Ker nam funkcija <em>range(zacetek,konec)</em> vrne vrednosti po formuli r[i] = začetek + korak*i, kjer je i &gt;= 0 in r[i] &lt; konec. Korak je v našem primeru <em>1</em>, saj ga nismo določili drugače.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
@@ -4576,7 +4559,7 @@ neznanki: <em>stevilo_ena</em> in <em>stevilo_dva</em> ter obema priredimo/dolo�
 <div class="sect3">
 <h4 id="_rešitev_2_z_dvojnim_prirejanjem">2.11.2. Rešitev #2: z dvojnim prirejanjem</h4>
 <div id="naloga011b" class="listingblock">
-<div class="title">Programska koda 29. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga011b.py">naloga011b.py</a></div>
+<div class="title">Izvorna koda 29. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga011b.py">naloga011b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4627,6 +4610,7 @@ Napiši program, ki izpiše prvih _X_ členov Fibonaccijevega zaporedja. Števil
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 12. Razlaga</caption>
 <colgroup>
@@ -4642,7 +4626,7 @@ Napiši program, ki izpiše prvih _X_ členov Fibonaccijevega zaporedja. Števil
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">19</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Za razliko od <a href="#naloga011a">rešitve a</a> v tem primeru ne določamo/prirejamo vsake spremenljivke posebej ampak lahko to v programskem jeziku <em>Python</em> storimo hkrati, saj je vrednost obeh spremenljivk (<em>stevilka_ena</em> in <em>stevilka_dva</em>) enaka, to je 1.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Za razliko od <a href="#naloga011a">rešitve a</a> v tem primeru ne določamo/prirejamo vsake spremenljivke posebej, ampak lahko to v programskem jeziku <em>Python</em> storimo hkrati, saj je vrednost obeh spremenljivk (<em>stevilka_ena</em> in <em>stevilka_dva</em>) enaka, to je 1.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
@@ -4651,7 +4635,7 @@ Napiši program, ki izpiše prvih _X_ členov Fibonaccijevega zaporedja. Števil
 </tbody>
 </table>
 <div class="paragraph">
-<p>Izpis programa je identičen prejšnjemu.</p>
+<p>Izpis programa je enak prejšnjemu.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -4661,17 +4645,14 @@ Napiši program, ki izpiše prvih _X_ členov Fibonaccijevega zaporedja. Števil
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Napišite program, ki od uporabnika bere števila, dokler uporabnik ne vpiše števila 0.</p>
-</div>
-<div class="paragraph">
-<p>Program naj sproti izpisuje največje vpisano število, najmanjše vpisano število ter povprečje vpisanih števil.</p>
+<p>Napišite program, ki od uporabnika bere števila, dokler uporabnik ne vpiše števila 0. Program naj sproti izpisuje največje vpisano število, najmanjše vpisano število ter povprečje vpisanih števil.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_7">2.12.1. Rešitev</h4>
 <div id="naloga012" class="listingblock">
-<div class="title">Programska koda 30. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga012.py">naloga012.py</a></div>
+<div class="title">Izvorna koda 30. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga012.py">naloga012.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4781,11 +4762,11 @@ Napiši program, ki od uporabnika bere števila, dokler uporabnik ne vpiše šte
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">26-30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V tem bloku kode preverimo, če je uporabnik vnesel število. Če ga ni, izpišemo sporočilo (<strong>vrstica 29</strong> in izvajanje programa prekinemo (<strong>vrstica 30</strong>))</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V tem bloku kode preverimo, če je uporabnik vnesel število. Če ga ni, izpišemo sporočilo (<strong>vrstica 29</strong> in izvajanje programa prekinemo (<strong>vrstica 30</strong>)).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">32</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če je vnos prestal vse prejšnje kontrole, številko dodamo na seznam <em>stevila</em>. To storimo zato, ker bomo uporabili funkcije, vgrajene v sam programski jezik, ki delujejo s seznami. Lahko bi računali tudi na roke.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če je vnos prestal vse prejšnje kontrole, število dodamo na seznam <em>stevila</em>. To storimo zato, ker bomo uporabili funkcije, vgrajene v sam programski jezik, ki delujejo s seznami. Lahko bi računali tudi na roke.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">33</p></td>
@@ -4844,7 +4825,7 @@ Pritisnili ste 0 in tako končali program.</code></pre>
 <td class="content">
 <div class="title">Pozor</div>
 <div class="paragraph">
-<p>Program deluje v skladu z navodili in vsebuje tudi kontrole vnosa. V primeru, da uporabnik vpiše črko namesto številke, se program ustavi.</p>
+<p>Program deluje v skladu z navodili in vsebuje tudi kontrole vnosa. Če uporabnik vpiše črko namesto števila, se program ustavi.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -4860,8 +4841,8 @@ Niste vnesli števila!</code></pre>
 </table>
 </div>
 <div class="paragraph">
-<p>Kako bi morali program popraviti, da bi izpisal zgolj obvestilo, da ni bilo vnešeno število, ta vnos zanemaril in deloval
-naprej? Ni vam potrebno napisati niti ene nove vrstice kode!</p>
+<p>Kako bi morali program popraviti, da bi izpisal zgolj obvestilo, da ni bilo vneseno število, ta vnos zanemaril in deloval
+naprej? Ni vam treba napisati niti ene nove vrstice kode!</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -4886,14 +4867,17 @@ naprej? Ni vam potrebno napisati niti ene nove vrstice kode!</p>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sestavite program, ki prebere naravno število in sešteje vse njegove števke, kar ponavlja, dokler ne pride do enomestnega števila. Program naj izpisuje vse vmesne rezultate.</p>
+<p>Sestavite program, ki prebere naravno število in sešteje vse njegove števke, kar ponavlja, dokler ne pride do enomestnega števila.</p>
+</div>
+<div class="paragraph">
+<p>Program naj izpisuje vse vmesne rezultate.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1_z_direktnim_seštevanjem">2.13.1. Rešitev #1: z direktnim seštevanjem</h4>
 <div id="naloga013a" class="listingblock">
-<div class="title">Programska koda 31. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga013a.py">naloga013a.py</a></div>
+<div class="title">Izvorna koda 31. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga013a.py">naloga013a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -4944,6 +4928,7 @@ Seštevanje števk naravnega števila
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 14. Razlaga</caption>
 <colgroup>
@@ -4963,11 +4948,11 @@ Seštevanje števk naravnega števila
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">18</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vsakič, ko gre zanka v nov krog, nastavimo sestevek na vrednost 0.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vsakič, ko gre zanka v nov krog, nastavimo spremenljivko <em>sestevek</em> na vrednost 0.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">19</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo novo spremenljivko <em>stevilo_string</em> in mu priredimo vrednost spremenljivke <em>stevilo</em>, pri čemer tip spremenljivke s pomočjo funkcije <em>str()</em> spremenimo v <em>string</em> (niz znakov). To storimo zato, da lahko dobimo dolžino vnešenega niza znakov, saj funkcija <em>len()</em> ne deluje s številčnimi tipi (<em>int</em>,<em>float</em>,<em>double</em>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo novo spremenljivko <em>stevilo_string</em> in mu priredimo vrednost spremenljivke <em>stevilo</em>, pri čemer tip spremenljivke s pomočjo funkcije <em>str()</em> spremenimo v <em>string</em> (niz znakov). To storimo zato, da lahko dobimo dolžino vnesenega niza znakov, saj funkcija <em>len()</em> ne deluje s številčnimi tipi (<em>int</em>,<em>float</em>,<em>double</em>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">20-21</p></td>
@@ -4979,7 +4964,7 @@ Seštevanje števk naravnega števila
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vrednost spremenljivke <em>stevilo</em> spremenimo in mu določimo vrednost spremenljivke <em>sestevek</em>, zato, da bomo v naslednji iteraciji seštevali števke novega števila. Če bo vrednost spremenljivke <em>stevilo</em> manjše od 10, se bo zanka <em>while</em> prekinila in se ne bo izvedla.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vrednost spremenljivke <em>stevilo</em> spremenimo in ji določimo vrednost spremenljivke <em>sestevek</em>, zato da bomo v naslednji iteraciji seštevali števke novega števila. Če bo vrednost spremenljivke <em>stevilo</em> manjše od 10, se bo zanka <em>while</em> prekinila in se ne bo izvedla.</p></td>
 </tr>
 </tbody>
 </table>
@@ -4993,11 +4978,12 @@ Seštevanje števk naravnega števila
 9</code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_2_z_uporabo_definirane_funkcije">2.13.2. Rešitev #2: z uporabo definirane funkcije</h4>
 <div id="naloga013b" class="listingblock">
-<div class="title">Programska koda 32. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga013b.py">naloga013b.py</a></div>
+<div class="title">Izvorna koda 32. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga013b.py">naloga013b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5054,6 +5040,7 @@ Seštevanje števk naravnega števila
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 15. Razlaga</caption>
 <colgroup>
@@ -5069,12 +5056,12 @@ Seštevanje števk naravnega števila
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">17-22</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tokrat uporabimo možnost priprave (definiranja) lastne funkcije, ki bo seštevala vrednosti. Gre za splošni zapis fukcij, ki jih v programski kodi navadno večkrat uporabljamo in jih zato definiramo kot svojo funkcijo. Ta mora biti definirana preden jo prvič kličemo v programski kodi, ker se ta izvaja po vrsti in mora imeti definirano fukcijo <em>v spominu</em>. Dobra prakasa je, da se vse definicije funkcij, ki jih imamo v programski kodi, uvrsti na začetek, takoj za tem, ko uvozimo vse morebitne dodatne knjižnice, ki jih uporabljamo. Šele po vseh definicijah pišemo programsko kodo, ki jo izvajamo.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tokrat uporabimo možnost priprave (definiranja) lastne funkcije, ki bo seštevala vrednosti. Gre za splošni zapis fukcij, ki jih v programski kodi navadno večkrat uporabljamo in jih zato definiramo kot svojo funkcijo. Ta mora biti definirana, preden jo prvič kličemo v programski kodi, saj se ta izvaja po vrsti in mora imeti definirano funkcijo <strong>v spominu</strong>. Dobra praksa je, da se vse definicije funkcij, ki jih imamo v programski kodi, uvrsti na začetek, takoj za tem, ko uvozimo vse morebitne dodatne knjižnice, ki jih uporabljamo. Šele po vseh definicijah pišemo programsko kodo, ki jo izvajamo.</p>
 <p class="tableblock">Opazimo lahko, da je funkcija <em>sestej()</em> precej podobna vrsticam 17-21 <a href="#naloga013a">rešitve a</a>, razlika je zgolj v dodatni <strong>vrstici 22</strong>, saj rešitve funkcije ne izpišemo, ampak jo vrnemo (s pomočjo <em>return</em>). Ime spremenljivke <em>stevilo_string</em> smo namenoma spremenili v <em>x_string</em>, ker smo spremenljivko, ki jo podamo kot parameter funkcije <em>sestej()</em>, poimenovali <em>x</em> in ne <em>stevilo</em>, da ne bi prišlo do pomote.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">24-26</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Zanko <em>while</em> izvajamo ob identičnih pogojih kot prej, razlika je zgolj v tem, da sedaj v zanki zgolj pokličemo prej uvedeno (pripravljeno, določeno) funkcijo <em>sestej()</em>, ki ji podamo vsakokratno število, funkcija nam vrne rezultat, ki ga potem v <strong>vrstici 26</strong> izpišemo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zanko <em>while</em> izvajamo ob enakih pogojih kot prej, razlika je zgolj v tem, da sedaj v zanki zgolj pokličemo prej uvedeno (pripravljeno, določeno) funkcijo <em>sestej()</em>, ki ji podamo vsakokratno število, funkcija nam vrne rezultat, ki ga potem v <strong>vrstici 26</strong> izpišemo.</p></td>
 </tr>
 </tbody>
 </table>
@@ -5111,7 +5098,7 @@ Bodite pozorni pri številih, večjih od 100!</p>
 <p>izpite (za 3 ali 4 opravljene izpite)</p>
 </li>
 <li>
-<p>izpitov (za več kot 4 opravljene izpite)</p>
+<p>izpitov (za 0 ali več kot 4 opravljene izpite)</p>
 </li>
 </ul>
 </div>
@@ -5130,7 +5117,7 @@ Bodite pozorni pri številih, večjih od 100!</p>
 <p>Če je ostanek 2, izberemo sklon <strong>izpita</strong>.</p>
 </li>
 <li>
-<p>Če je ostanek 3 ali 4, izberemo slon <strong>izpite</strong>.</p>
+<p>Če je ostanek 3 ali 4, izberemo sklon <strong>izpite</strong>.</p>
 </li>
 <li>
 <p>V vseh ostalih primerih izberemo sklon <strong>izpitov</strong>.</p>
@@ -5138,7 +5125,7 @@ Bodite pozorni pri številih, večjih od 100!</p>
 </ul>
 </div>
 <div id="naloga014" class="listingblock">
-<div class="title">Programska koda 33. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga014.py">naloga014.py</a></div>
+<div class="title">Izvorna koda 33. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga014.py">naloga014.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5212,14 +5199,14 @@ Opravili ste 103 izpite.</code></pre>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sestavi program, ki izračuna fakulteto vnešenega števila.</p>
+<p>Sestavi program, ki izračuna fakulteto vnesenega števila.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1_z_računanjem_in_prikazom_vmesnih_korakov">2.15.1. Rešitev #1: z računanjem in prikazom vmesnih korakov</h4>
 <div id="naloga015a" class="listingblock">
-<div class="title">Programska koda 34. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015a.py">naloga015a.py</a></div>
+<div class="title">Izvorna koda 34. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015a.py">naloga015a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5309,11 +5296,11 @@ Opravili ste 103 izpite.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">17-19</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik morda vnesel negativno število. Če ga je vnesel, izpišemo, da izračun ni možen (<strong>vrstica 18</strong>) ter program prekinemo (<strong>vrstica 19</strong>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik morda vnesel negativno število. Če ga je vnesel, izpišemo, da izračun ni možen (<strong>vrstica 18</strong>), ter program prekinemo (<strong>vrstica 19</strong>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">21-22</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če uporabnik vpiše število <strong>0</strong> ali <strong>1</strong>, je rezultat ena. Ker gre za posebnost (sploh v primeru, da računamo <strong>0!</strong>), to rešimo s pogojnim stavkom.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če uporabnik vpiše število <strong>0</strong> ali <strong>1</strong>, je rezultat ena. Ker gre za posebnost (sploh če računamo <strong>0!</strong>), to rešimo s pogojnim stavkom.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
@@ -5325,19 +5312,19 @@ Opravili ste 103 izpite.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">25</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>n</em>, ki ima na začetku enako vrednost kot spremenljivka <em>stevilo</em>. Zakaj potrebujemo novo spremenljivko? Ker ima spremenljivka <em>stevilo</em> vrednost, ki jo je vnesel uporabnik, spremenljivka <em>n</em> pa se bo spreminjala, ko bomovnešeno število manjšali proti 1 in računali fakulteto. Potrebujemo torej obe spremenljivki.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>n</em>, ki ima na začetku enako vrednost kot spremenljivka <em>stevilo</em>. Zakaj potrebujemo novo spremenljivko? Ker ima spremenljivka <em>stevilo</em> vrednost, ki jo je vnesel uporabnik, spremenljivka <em>n</em> pa se bo spreminjala, ko bomo vneseno število manjšali proti 1 in računali fakulteto. Potrebujemo torej obe spremenljivki.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">26</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>fakulteta</em>, ki bo imela vrednost izračunane fakultete vnešenega števila. Nastavimo ji začetno vrednost 1, s katero bomo množili vsa ostala števila.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uvedemo spremenljivko <em>fakulteta</em>, ki bo imela vrednost izračunane fakultete vnesenega števila. Nastavimo ji začetno vrednost 1, s katero bomo množili vsa ostala števila.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">27-30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Zanka, ki se naj izvaja, dokler je vrednost spremenljivke <em>n</em> večja od 0 ( se pravi od vrednosti spremenljivke <em>stevilo</em> (<strong>vrstica 25</strong>) do 1).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zanka, ki se naj izvaja, dokler je vrednost spremenljivke <em>n</em> večja od 0 (se pravi od vrednosti spremenljivke <em>stevilo</em> (<strong>vrstica 25</strong>) do 1).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">28</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vsakič na seznam <em>izpis</em> dodamo trenutno vrednost spremenljivke <em>n</em> (prva bo enaka vrednosti vpisanega števila <em>stevilo</em>, zadnja bo 1, po tem se bo zanka prekinila, saj bo vrednost spremenljivke <em>n</em> enak 0 in pogoj zanke <em>while</em> v <strong>vrstici 27</strong> ne bo več izpolnjen).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vsakič na seznam <em>izpis</em> dodamo trenutno vrednost spremenljivke <em>n</em> (prva bo enaka vrednosti vpisanega števila <em>stevilo</em>, zadnja bo 1, po tem se bo zanka prekinila, saj bo vrednost spremenljivke <em>n</em> enaka 0 in pogoj zanke <em>while</em> v <strong>vrstici 27</strong> ne bo več izpolnjen).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">29</p></td>
@@ -5349,11 +5336,7 @@ Opravili ste 103 izpite.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">32</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ko se zanka prekinemo, lahko vse vrednosti v seznamu (polju) <em>izpis</em> uporabimo za pripravo izpisa vmesnih korakov. Ker smo uporabili seznam lahko uporabimo funkcijo <em>join()</em>. Ta nam vse elemente na seznamu poveže v niz znakov, med posamezne elemente pa doda niz znakov, ki ga podamo na začetku (v našem primeru je to niz znakov " * " (presledek zvezdica presledek)). Na tak način dobimo lep izpis vseh vmesnih korakov.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock">33</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Izpišemo rezultat.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ko se zanka prekine, lahko vse vrednosti v seznamu (polju) <em>izpis</em> uporabimo za pripravo izpisa vmesnih korakov. Ker smo uporabili seznam, lahko uporabimo funkcijo <em>join()</em>. Ta nam vse elemente na seznamu poveže v niz znakov, med posamezne elemente pa doda niz znakov, ki ga podamo na začetku (v našem primeru je to niz znakov " * " (presledek zvezdica presledek)). Na tak način dobimo lep izpis vseh vmesnih korakov.</p></td>
 </tr>
 </tbody>
 </table>
@@ -5400,7 +5383,7 @@ Niste vnesli celega števila!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_z_uporabo_definirane_funkcije_in_izpisom_vmesnih_rezultatov">2.15.2. Rešitev #2: z uporabo definirane funkcije in izpisom vmesnih rezultatov</h4>
 <div id="naloga015b" class="listingblock">
-<div class="title">Programska koda 35. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015b.py">naloga015b.py</a></div>
+<div class="title">Izvorna koda 35. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015b.py">naloga015b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5475,13 +5458,13 @@ Niste vnesli celega števila!</code></pre>
 <p>Razlika med <a href="#naloga015a">rešitvijo a</a> in <a href="#naloga015b">rešitvijo b</a> je v tem, da v drugem primeru uporabimo možnost priprave (definiranja) funkcije. Funkcija <em>fakulteta()</em> potrebuje zgolj 1 parameter, to je število, za katerega želimo izračunati fakulteto in katerega vrednost priredimo spremenljivki <em>stevilo</em>. Funkcija ima povsem enake sestavne dele kot <a href="#naloga015a">rešitev a</a> in v <strong>vrstici 31</strong> vrne rezultat. Rezultat je izpis, ki ga lahko direktno izpišemo, kar storimo v <strong>vrstici 33</strong>.</p>
 </div>
 <div class="paragraph">
-<p>Izpis programa je identičen prejšnjemu.</p>
+<p>Izpis programa je enak prejšnjemu.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_3_z_uporabo_vgrajene_funkcije_za_izračun_fakultete">2.15.3. Rešitev #3: z uporabo vgrajene funkcije za izračun fakultete</h4>
 <div id="naloga015c" class="listingblock">
-<div class="title">Programska koda 36. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015c.py">naloga015c.py</a></div>
+<div class="title">Izvorna koda 36. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga015c.py">naloga015c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5538,7 +5521,7 @@ Niste vnesli celega števila!</code></pre>
 <p>Opazimo lahko, da je ta program najkrajši (in morda najlažji za razumeti), ne vsebuje pa vseh vmesnih korakov.</p>
 </div>
 <div class="paragraph">
-<p>Za reševanje uporabimo vgrajeno funkcijo <em>math.factorial()</em>. Če jo želimo uporabiti, moramo vključiti modul <em>math</em>, kar storimo v <strong>vrstici 9</strong>. Ohranimo kontroli vnosa za preverjanje, če je vnešeno celo število (<strong>vrstice 14-18</strong>) ter za preverjanje, če je uporabnik vnesel pozitivno število (<strong>vrstice 20-22</strong>), saj v nasprotnem primeru funkcija <em>math.factorial()</em> vrne napako.</p>
+<p>Za reševanje uporabimo vgrajeno funkcijo <em>math.factorial()</em>. Če jo želimo uporabiti, moramo vključiti modul <em>math</em>, kar storimo v <strong>vrstici 9</strong>. Ohranimo kontroli vnosa za preverjanje, če je vneseno celo število (<strong>vrstice 14-18</strong>), ter za preverjanje, če je uporabnik vnesel pozitivno število (<strong>vrstice 20-22</strong>), saj v nasprotnem primeru funkcija <em>math.factorial()</em> vrne napako.</p>
 </div>
 <div class="paragraph">
 <p>Če uporabnik res vnese pozitivno celo število, lahko fakulteto izračunamo in jo izpišemo (<strong>vrstica 24</strong>).</p>
@@ -5566,14 +5549,14 @@ Vnesi število: 6
 <p>Napiši program, ki od uporabnika dobi naravno število, nato pa nariše <em>smrečico</em> z znakom *.</p>
 </div>
 <div class="paragraph">
-<p>Smrečica naj ima toliko vrstic, kot jih uporabnik definira z vnosom naravnega števila.</p>
+<p>Smrečica naj ima toliko vrstic, kolikor jih uporabnik definira z vnosom naravnega števila.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_1_smrečica_poravnana_levo">2.16.1. Rešitev #1: smrečica, poravnana levo</h4>
 <div id="naloga016a" class="listingblock">
-<div class="title">Programska koda 37. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016a.py">naloga016a.py</a></div>
+<div class="title">Izvorna koda 37. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016a.py">naloga016a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5651,7 +5634,7 @@ Vnesi število: 6
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">17-19</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik morda vnesel negativno število. Če ga je vnesel, izpišemo, da izračun ni možen (<strong>vrstica 18</strong>) ter program prekinemo (<strong>vrstica 19</strong>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik morda vnesel negativno število. Če ga je vnesel, izpišemo, da izračun ni možen (<strong>vrstica 18</strong>), ter program prekinemo (<strong>vrstica 19</strong>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">22-25</p></td>
@@ -5680,7 +5663,7 @@ Vnesi višino smrečice: 6
 <div class="sect3">
 <h4 id="_rešitev_2_smrečica_poravnana_desno">2.16.2. Rešitev #2: smrečica, poravnana desno</h4>
 <div id="naloga016b" class="listingblock">
-<div class="title">Programska koda 38. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016b.py">naloga016b.py</a></div>
+<div class="title">Izvorna koda 38. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016b.py">naloga016b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5747,7 +5730,7 @@ Vnesi višino smrečice: 6
 <p>bodo v zadnji izpisani vrstici izpolnjena vsa mesta in ne bo prisotnih praznih mest,</p>
 </li>
 <li>
-<p>bodo prvi vrstici prazna vsa izpisana mesta razen enega (skrajno desnega),</p>
+<p>bodo v prvi vrstici prazna vsa izpisana mesta razen enega (skrajno desnega),</p>
 </li>
 <li>
 <p>bo vseh izpisanih vrstic toliko, kot znaša spremenljivka <em>stevilo</em>,</p>
@@ -5769,7 +5752,7 @@ Vnesi višino smrečice: 6
 <p>Najprej izpišemo število praznih mest. Praznih mest je toliko, kot je vrednost spremeljivke <em>stevilo</em>, zmanjšana za številko vrstice, v kateri se nahajamo, torej za vrednost spremenljivke <em>n</em>. Število praznih mest  <em>" "</em> torej množimo z vrednostjo _(stevilo - n).</p>
 </li>
 <li>
-<p>Nato izpišemo zvezdice. Zvezdic izpišemo toliko kot je številka vrstice, v kateri se nahajamo, torej kot je vrednost spremenljivke <em>n</em>. Na tem mestu se lahko testiramo. Če izpisujemo 10 vrstic, bo v prvi vrstici 9 praznih mest in 1 polno, v drugi 8 praznih in 2 polni itd. Algoritem torej deluje.</p>
+<p>Nato izpišemo zvezdice. Zvezdic izpišemo toliko, kot je številka vrstice, v kateri se nahajamo, torej kot je vrednost spremenljivke <em>n</em>. Na tem mestu se lahko testiramo. Če izpisujemo 10 vrstic, bo v prvi vrstici 9 praznih mest in 1 polno, v drugi 8 praznih in 2 polni itd. Algoritem torej deluje.</p>
 </li>
 <li>
 <p>Ostane še tretji parameter, to je <em>sep=""</em>. Z njim nastavimo funkcijo <em>print</em> tako, da med posameznimi parametri v izpisu namesto praznega mesta (" ") ne vstavi nič. Tako imamo celotno kontrolo izpisa.</p>
@@ -5796,7 +5779,7 @@ Vnesi višino smrečice: 5
 <div class="sect3">
 <h4 id="_rešitev_3_smrečica_poravnana_sredinsko">2.16.3. Rešitev #3: smrečica, poravnana sredinsko</h4>
 <div id="naloga016c" class="listingblock">
-<div class="title">Programska koda 39. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016c.py">naloga016c.py</a></div>
+<div class="title">Izvorna koda 39. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga016c.py">naloga016c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5860,7 +5843,7 @@ Vnesi višino smrečice: 5
 </div>
 </div>
 <div class="paragraph">
-<p>Ta primer se od <a href="#naloga016a">rešitve a</a> in <a href="#naloga016b">rešitve b</a> spet razlikuje zgolj od <strong>vrstice 24</strong> dalje (če ponovno zanemarimo komentar v <strong>vrstici 21</strong>). V tem primeru moramo v vsaki vrstici izračunati število praznih mest na začetku tako, da bo zvezdica izpisana na sredini.</p>
+<p>Ta primer se od <a href="#naloga016a">rešitve a</a> in <a href="#naloga016b">rešitve b</a> spet razlikuje zgolj od <strong>vrstice 24</strong> dalje (če znova zanemarimo komentar v <strong>vrstici 21</strong>). V tem primeru moramo v vsaki vrstici izračunati število praznih mest na začetku tako, da bo zvezdica izpisana na sredini.</p>
 </div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 18. Razlaga</caption>
@@ -5877,7 +5860,7 @@ Vnesi višino smrečice: 5
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">24</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vpeljemo spremenljivko <em>stevilo_zvezdic</em> in mu priredimo vrednost <em>2 * n - 1</em>. To storimo zato, ker v izpisu ne moremo zvezdic poravnati drugače kot eno nad drugo. To pomeni, da bomo imeli v drugi vrstici izpisa namesto dveh smrečic 3, v tretji 5 itd.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vpeljemo spremenljivko <em>stevilo_zvezdic</em> in mu priredimo vrednost <em>2 * n - 1</em>. To storimo zato, ker v izpisu zvezdic ne moremo poravnati drugače kot eno nad drugo. To pomeni, da bomo imeli v drugi vrstici izpisa namesto dveh smrečic 3, v tretji 5 itd.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">25</p></td>
@@ -5928,7 +5911,7 @@ Vnesi višino smrečice: 5
 <div class="sect3">
 <h4 id="_rešitev_1_splošna_rešitev">2.17.1. Rešitev #1: splošna rešitev</h4>
 <div id="naloga017a" class="listingblock">
-<div class="title">Programska koda 40. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017a.py">naloga017a.py</a></div>
+<div class="title">Izvorna koda 40. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017a.py">naloga017a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -5971,6 +5954,16 @@ Vnesi višino smrečice: 5
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Primer izpisa:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>Podajte število, ki ga želite obrniti: 12345
+Obrat števila '12345' je '54321'.</code></pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 19. Razlaga</caption>
 <colgroup>
@@ -5990,7 +5983,7 @@ Vnesi višino smrečice: 5
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">10</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Da bomo lahko uporabili zanko, moramo vedeti, kako dolgo (koliko števk) ima število, zato uporabimo funkcijo <em>len()</em>. Pri tem velja opozorilo, da čeprav smo uporabnika pozvali k vpisu števila, lahko vpiše karkoli in ker funkcija <em>input</em> vrne niz znakov, lahko uporabimo funkcijo <em>len</em>, drugače bi se morali znajti drugače.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Da bomo lahko uporabili zanko, moramo vedeti, kako dolgo je število (koliko števk ima), zato uporabimo funkcijo <em>len()</em>. Pri tem velja opozorilo, da čeprav smo uporabnika pozvali k vpisu števila, lahko vpiše karkoli in ker funkcija <em>input</em> vrne niz znakov, lahko uporabimo funkcijo <em>len</em>, sicer bi se morali znajti drugače.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">12</p></td>
@@ -6006,7 +5999,7 @@ Vnesi višino smrečice: 5
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">15</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Spremenljivki <em>obrat</em> dodamo znak, ki se nahaja za <em>n</em> mest stran od zadnjega znaka. Trik v tem koraku je, da lahko vsak niz znakov (<em>string</em>) uporabljamo kot seznam (<em>list</em>) posameznih znakov. Tako je potem neko število seznam, v katerem se nahajajo posamezne števke celotnega števila. Če potem obračamo recimo številko <em>12345</em>, se lahko premikamo po posameznih števkah: <em>1</em>, <em>2</em>, <em>3</em>, <em>4</em> in <em>5</em>. V zanki bomo tako v prvem koraku spremenljivki <em>obrat</em> dodali števko <em>5</em>, ki pa se nahaja na mestu, označenem z <em>indeksom</em> 4. Zakaj 4? Ker se mesta v seznamih začnejo šteti z 0 in ne 1. Pri številki <em>12345</em> je torej števka <em>1</em> na mestu <em>0</em>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Spremenljivki <em>obrat</em> dodamo znak, ki se nahaja za <em>n</em> mest stran od zadnjega znaka. Trik v tem koraku je, da lahko vsak niz znakov (<em>string</em>) uporabljamo kot seznam (<em>list</em>) posameznih znakov. Tako je potem neko število seznam, v katerem se nahajajo posamezne števke celotnega števila. Če potem obračamo recimo številko <em>12345</em>, se lahko premikamo po posameznih števkah: <em>1</em>, <em>2</em>, <em>3</em>, <em>4</em> in <em>5</em>. V zanki bomo tako v prvem koraku spremenljivki <em>obrat</em> dodali števko <em>5</em>, ki pa je na mestu, označenem z <em>indeksom</em> 4. Zakaj 4? Ker se mesta v seznamih začnejo šteti z 0 in ne 1. Pri številki <em>12345</em> je torej števka <em>1</em> na mestu <em>0</em>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">16</p></td>
@@ -6018,15 +6011,6 @@ Vnesi višino smrečice: 5
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Primer izpisa:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="rouge highlight"><code>Podajte število, ki ga želite obrniti: 12345
-Obrat števila '12345' je '54321'.</code></pre>
-</div>
-</div>
 <div class="admonitionblock important">
 <table>
 <tr>
@@ -6034,9 +6018,8 @@ Obrat števila '12345' je '54321'.</code></pre>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Pozor</div>
 <div class="paragraph">
-<p>Tako pripravljen program deluje za kateri koli vpisan niz znakov, kar pomeni, da ne deluje tako, kot bi si želeli.</p>
+<p>Tako pripravljen program deluje za kateri koli vpisani niz znakov, kar pomeni, da ne deluje tako, kot bi si želeli.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -6055,7 +6038,7 @@ Obrat števila 'FGG' je 'GGF'.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_primer_rešitve_ki_deluje_samo_za_cela_števila">2.17.2. Rešitev #2: primer rešitve, ki deluje samo za cela števila</h4>
 <div id="naloga017b" class="listingblock">
-<div class="title">Programska koda 41. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017b.py">naloga017b.py</a></div>
+<div class="title">Izvorna koda 41. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017b.py">naloga017b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6115,10 +6098,7 @@ Obrat števila 'FGG' je 'GGF'.</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p><a href="#naloga017a">Rešitev a</a> dopolnimo s preverjanjem tipa spremenljivke (<strong>vrstice 11-15</strong>). Če uporabnik ne vpiše naravnega (celega) števila, se program z obvestilom o napačnem vpisu ustavi.</p>
-</div>
-<div class="paragraph">
-<p>Primer izpisa ob napaki:</p>
+<p><a href="#naloga017a">Rešitev a</a> dopolnimo s preverjanjem tipa spremenljivke (<strong>vrstice 11-15</strong>). Če uporabnik ne vpiše naravnega (celega) števila, se program z obvestilom o napačnem vpisu ustavi. Primer izpisa ob napaki:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -6133,7 +6113,6 @@ Niste vnesli celega števila!</code></pre>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Pozor</div>
 <div class="paragraph">
 <p>Tako pripravljen program deluje za katero koli vpisano celo število, tudi negativno, ki ga bo izpisal celo napačno.</p>
 </div>
@@ -6154,7 +6133,7 @@ Obrat števila '-123' je '321-'.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_3_primer_rešitve_ki_deluje_samo_za_naravna_števila">2.17.3. Rešitev #3: primer rešitve, ki deluje samo za naravna števila</h4>
 <div id="naloga017c" class="listingblock">
-<div class="title">Programska koda 42. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017c.py">naloga017c.py</a></div>
+<div class="title">Izvorna koda 42. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017c.py">naloga017c.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6210,13 +6189,13 @@ Obrat števila '-123' je '321-'.</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Čeprav bi lahko nadgradili <a href="#naloga017b">rešitev b</a> s pogojnim stavkom, ki bi preverjal, ali je vnešeno število pozitivno ali negativno, smo raje predstavili rešitev z uporabo metode <em>isdigit()</em> (<strong>vrstice 11-13</strong>). Z njo preverimo, če so vsi znaki v nizu številke. Če se na primer v podanem nizu nahaja znak <em>-</em> ali pa recimo črka, decimalna vejica ali pika, metoda vrne vrednost <em>False</em>. Če metoda vrne vrednost <em>True</em>, smo lahko prepričani, da se v podanem nizu nahajajo samo številke. Druge kontrole niso potrebne. Izpis je popolnoma enak prejšnjemu.</p>
+<p>Čeprav bi lahko nadgradili <a href="#naloga017b">rešitev b</a> s pogojnim stavkom, ki bi preverjal, ali je vneseno število pozitivno ali negativno, smo raje predstavili rešitev z uporabo metode <em>isdigit()</em> (<strong>vrstice 11-13</strong>). Z njo preverimo, če so vsi znaki v nizu številke. Če se na primer v podanem nizu nahaja znak <em>-</em> ali pa recimo črka, decimalna vejica ali pika, metoda vrne vrednost <em>False</em>. Če metoda vrne vrednost <em>True</em>, smo lahko prepričani, da se v podanem nizu nahajajo samo številke. Druge kontrole niso potrebne. Izpis je popolnoma enak prejšnjemu.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_rešitev_4_primer_rešitve_ki_deluje_samo_za_naravna_števila_krajši_način">2.17.4. Rešitev #4: primer rešitve, ki deluje samo za naravna števila (krajši način)</h4>
 <div id="naloga017d" class="listingblock">
-<div class="title">Programska koda 43. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017d.py">naloga017d.py</a></div>
+<div class="title">Izvorna koda 43. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga017d.py">naloga017d.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6259,7 +6238,7 @@ Obrat števila '-123' je '321-'.</code></pre>
 <p>Ta rešitev je najkrajša in izkorišča možnosti in bližnjice programskega jezika Python.</p>
 </div>
 <div class="paragraph">
-<p>Opazimo lahko, da je namesto zanke, s katero smo operirali v prvih treh primerih, v <strong>vrstici 14</strong> uporabljen poseben ukaz oziroma operator <strong>[::-1]</strong>. S tem ukazom povemo, da želimo ustvariti nov niz znakov, ki začne na koncu prvotnega niza in se pomika proti začetku (to je poziciji <em>0</em>) s korakom <em>-1</em>, torej nazaj (v drugem posebnem primeru bi se lahko pomikal tudi naprej, odvisno od tega, kaj želimo doseči). Izpis je drugače identičen prejšnjemu.</p>
+<p>Opazimo lahko, da je namesto zanke, s katero smo operirali v prvih treh primerih, v <strong>vrstici 14</strong> uporabljen poseben ukaz oziroma operator <strong>[::-1]</strong>. S tem ukazom povemo, da želimo ustvariti nov niz znakov, ki se začne na koncu prvotnega niza in se pomika proti začetku (to je poziciji <em>0</em>) s korakom <em>-1</em>, torej nazaj (v drugem posebnem primeru bi se lahko pomikal tudi naprej, odvisno od tega, kaj želimo doseči). Izpis je drugače enak prejšnjemu.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -6269,7 +6248,7 @@ Obrat števila '-123' je '321-'.</code></pre>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sestavi program, v katerem uporabnik vpiše niz znakov, program pa pove, ali je vpisan niz znakov palindrom ali ne.</p>
+<p>Sestavi program, v katerem uporabnik vpiše niz znakov, program pa pove, ali je vpisani niz znakov palindrom ali ne.</p>
 </div>
 </div>
 </div>
@@ -6279,7 +6258,7 @@ Obrat števila '-123' je '321-'.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_polovična_rešitev">2.18.1. Rešitev #1: (polovična) rešitev</h4>
 <div id="naloga018a" class="listingblock">
-<div class="title">Programska koda 44. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga018a.py">naloga018a.py</a></div>
+<div class="title">Izvorna koda 44. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga018a.py">naloga018a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6320,6 +6299,27 @@ Obrat števila '-123' je '321-'.</code></pre>
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Primer izpisa:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>**********************************
+*** Ali je besedilo palindrom? ***
+**********************************
+Vpiši potencialen palindrom: pericarežeracirep
+Besedilo 'pericarežeracirep' JE palindrom!</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>**********************************
+*** Ali je besedilo palindrom? ***
+**********************************
+Vpiši potencialen palindrom: perica reže raci rep
+Besedilo 'perica reže raci rep' NI palindrom!</code></pre>
+</div>
+</div>
 <table class="tableblock frame-ends grid-rows stretch">
 <caption class="title">Tabela 20. Razlaga</caption>
 <colgroup>
@@ -6343,31 +6343,10 @@ Obrat števila '-123' je '321-'.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">15-18</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če sta vrednosti spremenljivk <em>besedilo</em> ter <em>obrnjeno_besedilo</em> identični ter na podlagi primerjave izpišemo, da besedilo je ali pa ni palindrom.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če sta vrednosti spremenljivk <em>besedilo</em> ter <em>obrnjeno_besedilo</em> enaki, ter na podlagi primerjave izpišemo, da besedilo je ali pa ni palindrom.</p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Primer izpisa:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="rouge highlight"><code>**********************************
-*** Ali je besedilo palindrom? ***
-**********************************
-Vpiši potencialen palindrom: pericarežeracirep
-Besedilo 'pericarežeracirep' JE palindrom!</code></pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="rouge highlight"><code>**********************************
-*** Ali je besedilo palindrom? ***
-**********************************
-Vpiši potencialen palindrom: perica reže raci rep
-Besedilo 'perica reže raci rep' NI palindrom!</code></pre>
-</div>
-</div>
 <div class="admonitionblock important">
 <table>
 <tr>
@@ -6375,9 +6354,8 @@ Besedilo 'perica reže raci rep' NI palindrom!</code></pre>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Pozor</div>
 <div class="paragraph">
-<p>Kot vidimo, tako pripravljen program sicer deluje, a ne tako, kot smo vajeni. Kot vidimo zgoraj, za besedilo 'pericarežeracirep' pravilno ugotovi, da je palindrom, hkrati pa v primeru, da zapišemo besedilo v obliki 'perica reže raci rep' tega ne ugotovi, saj moramo presledke postaviti drugam. Zato rešitev izboljšajmo.</p>
+<p>Kot vidimo, tako pripravljen program sicer deluje, a ne tako, kot smo vajeni. Kot vidimo zgoraj, za besedilo 'pericarežeracirep' program pravilno ugotovi, da je palindrom, a tega ne ugotovi, če besedilo zapišemo v obliki 'perica reže raci rep', saj moramo presledke postaviti drugam. Zato rešitev izboljšajmo.</p>
 </div>
 </td>
 </tr>
@@ -6387,7 +6365,7 @@ Besedilo 'perica reže raci rep' NI palindrom!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_končna_rešitev">2.18.2. Rešitev #2: (končna) rešitev</h4>
 <div id="naloga018b" class="listingblock">
-<div class="title">Programska koda 45. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga018b.py">naloga018b.py</a></div>
+<div class="title">Izvorna koda 45. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga018b.py">naloga018b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6424,12 +6402,12 @@ Besedilo 'perica reže raci rep' NI palindrom!</code></pre>
 # -*- coding: utf-8 -*-
 </span>
 <span class="sh">"""</span><span class="s">
-Uporabnik vpiše niz znakov, program pa pove, ali je vpisan niz palindrom ali ne.
+Uporabnik vpiše niz znakov, program pa pove, ali je vpisani niz palindrom ali ne.
 Palindrom je niz znakov, ki se enako prebere z leve in z desne.
 </span><span class="sh">"""</span>
 
-<span class="c1">## tole deluje: pericarezeracirep
-## tole ne deluje: perica reze raci rep
+<span class="c1">## tole deluje: pericareŽeracirep
+## tole ne deluje: perica reŽe raci rep
 </span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*********************************</span><span class="sh">"</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*** Ali je besedilo palindrom ***</span><span class="sh">"</span><span class="p">)</span>
@@ -6487,7 +6465,7 @@ Besedilo 'Perica Reže Raci REP!' JE palindrom!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_rešitev">2.19.1. Rešitev #1: rešitev</h4>
 <div id="naloga019a" class="listingblock">
-<div class="title">Programska koda 46. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga019a.py">naloga019a.py</a></div>
+<div class="title">Izvorna koda 46. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga019a.py">naloga019a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6537,7 +6515,7 @@ Besedilo 'Perica Reže Raci REP!' JE palindrom!</code></pre>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">5</span><span class="p">,</span><span class="sh">"</span><span class="s">Program za izračun največjega skupnega delitelja</span><span class="sh">"</span><span class="p">,</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">5</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">60</span><span class="p">)</span>
 
-<span class="c1"># definirajmo funkcijo, ki nam bo preverila, če sta vnešeni številki celi
+<span class="c1"># definirajmo funkcijo, ki nam bo preverila, če sta vnešeni števili celi
 </span><span class="k">def</span> <span class="nf">preveriStevilke</span><span class="p">(</span><span class="n">stevilka</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">stevilka</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="n">stevilka</span><span class="p">)</span>
@@ -6546,9 +6524,9 @@ Besedilo 'Perica Reže Raci REP!' JE palindrom!</code></pre>
         <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"'</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="sh">'</span><span class="s"> ni številka.</span><span class="sh">"</span><span class="p">)</span>
         <span class="nf">quit</span><span class="p">()</span>
 
-<span class="c1"># Pozovemo uporabnika, naj poda dve celi številki
+<span class="c1"># Pozovemo uporabnika, naj poda dve celi števili
 </span><span class="n">stevilo1</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">"</span><span class="s">Podajte prvo celo število: </span><span class="sh">"</span><span class="p">)</span>
-<span class="c1"># preverimo številki
+<span class="c1"># preverimo števili
 </span><span class="n">stevilo1</span> <span class="o">=</span> <span class="nf">preveriStevilke</span><span class="p">(</span><span class="n">stevilo1</span><span class="p">)</span>
 
 <span class="n">stevilo2</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">"</span><span class="s">Podajte drugo celo število: </span><span class="sh">"</span><span class="p">)</span>
@@ -6583,15 +6561,15 @@ Besedilo 'Perica Reže Raci REP!' JE palindrom!</code></pre>
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">12-18</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definiramo funkcijo <em>preveriStevilke()</em>, ki preveri, če sta vnešeni številki celi. Funkcijo pripravimo zato, ker bomo preverjali 2 vnosa. Funkcija v primeru, da uporabnik ne vnese celih števil, vrne napako in ustavi izvajanje.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definiramo funkcijo <em>preveriStevilke()</em>, ki preveri, če sta vneseni števili celi. Funkcijo pripravimo zato, ker bomo preverjali 2 vnosa. Če uporabnik ne vnese celih števil, funkcija vrne napako in ustavi izvajanje.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">21,25</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Uporabnika pozovemu k vnosu številk, za kateri bomo iskali največji skupni delitelj.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uporabnika pozovemu k vnosu števil, za kateri bomo iskali največji skupni delitelj.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23,26</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik res vnesel številki. Pri tem uporabimo funkcijo <em>preveriStevilke()</em>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo, če je uporabnik res vnesel števili. Pri tem uporabimo funkcijo <em>preveriStevilke()</em>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">31</p></td>
@@ -6607,6 +6585,7 @@ Besedilo 'Perica Reže Raci REP!' JE palindrom!</code></pre>
 </tr>
 </tbody>
 </table>
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p>Primer izpisa:</p>
 </div>
@@ -6627,7 +6606,7 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_rešitev_za_več_kot_2_podani_števili">2.19.2. Rešitev #2: rešitev za več kot 2 podani števili</h4>
 <div id="naloga019b" class="listingblock">
-<div class="title">Programska koda 47. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga019b.py">naloga019b.py</a></div>
+<div class="title">Izvorna koda 47. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga019b.py">naloga019b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6696,13 +6675,13 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">5</span><span class="p">,</span><span class="sh">"</span><span class="s">Program za izračun največjega skupnega delitelja</span><span class="sh">"</span><span class="p">,</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">5</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">*</span><span class="sh">"</span><span class="o">*</span><span class="mi">60</span><span class="p">)</span>
 
-<span class="c1"># definirajmo funkcijo, ki nam bo preverila, če sta vnešeni številki celi
+<span class="c1"># definirajmo funkcijo, ki nam bo preverila, če sta vnešeni števili celi
 </span><span class="k">def</span> <span class="nf">preveriStevilke</span><span class="p">(</span><span class="n">stevilka</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">stevilka</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="n">stevilka</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">stevilka</span>
     <span class="k">except</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"'</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="sh">'</span><span class="s"> ni številka.</span><span class="sh">"</span><span class="p">)</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"'</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="sh">'</span><span class="s"> ni število.</span><span class="sh">"</span><span class="p">)</span>
         <span class="nf">quit</span><span class="p">()</span>
 
 <span class="c1"># Pozovemo uporabnika, naj poda števila
@@ -6731,7 +6710,7 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
         <span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">stevila</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">delitelj</span>
     <span class="n">a_original</span><span class="p">,</span><span class="n">b_original</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span>
 
-    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Preglejujem številki </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s"> in </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s">.</span><span class="sh">"</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Preglejujem števili </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s"> in </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s">.</span><span class="sh">"</span><span class="p">)</span>
     <span class="c1"># Evklidov algoritem
 </span>    <span class="k">while</span> <span class="n">b</span><span class="p">:</span>
         <span class="n">n</span> <span class="o">=</span> <span class="n">math</span><span class="p">.</span><span class="nf">floor</span><span class="p">(</span><span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">)</span>
@@ -6746,13 +6725,14 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p>Ta rešitev temelji na <a href="#naloga019a">rešitvi a</a> z dvema bistvenima popravkoma:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>pri vnosu uporabnik številke vnese tako, da jih loči z vejicami,</p>
+<p>pri vnosu uporabnik števila vnese tako, da jih loči z vejicami,</p>
 </li>
 <li>
 <p>iskanje največjega skupnega delitelja za več kot 2 števili.</p>
@@ -6782,7 +6762,7 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">30-32</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo vse vrednosti v seznamu <em>stevila_string</em>, če so res števila. V primeru, da naletimo na vrednost, ki ni celo število, se program ustavi.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverimo vse vrednosti v seznamu <em>stevila_string</em>, če so res števila. Če naletimo na vrednost, ki ni celo število, se program ustavi.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">31</p></td>
@@ -6794,7 +6774,7 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">38-55</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V tem sklopu izvajamo evklidov algoritem, kot smo to počeli v <a href="#naloga019a">rešitvi a</a>. Razlika je v tem, da ne vemo, koliko števil bo uporabnik vpisal, zato se po seznamu premikamo od začetka do konca. Trik je v tem, da najprej iščemo največji delitelj prvih dveh vpisanih števil, v vsakem naslednjem koraku pa preverjamo zgolj največji skupni delitelj med naslednjim številom ter deliteljem iz prejšnjega koraka. Spremenljivki <em>a_original</em> ter <em>b_original</em>, ki jih uvedemo v <strong>vrstici 44</strong>, sta namenjeni zgolj izpisu b <strong>vrstici 53</strong>, saj bi drugače začetni vrednosti izgubili.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V tem sklopu izvajamo evklidov algoritem, kot smo to počeli v <a href="#naloga019a">rešitvi a</a>. Razlika je v tem, da ne vemo, koliko števil bo uporabnik vpisal, zato se po seznamu premikamo od začetka do konca. Trik je v tem, da najprej iščemo največji delitelj prvih dveh vpisanih števil, v vsakem naslednjem koraku pa preverjamo zgolj največji skupni delitelj med naslednjim številom ter deliteljem iz prejšnjega koraka. Spremenljivki <em>a_original</em> ter <em>b_original</em>, ki ju uvedemo v <strong>vrstici 44</strong>, sta namenjeni zgolj izpisu v <strong>vrstici 53</strong>, saj bi drugače začetni vrednosti izgubili.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">57</p></td>
@@ -6802,6 +6782,7 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 </tr>
 </tbody>
 </table>
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p>Primer izpisa:</p>
 </div>
@@ -6813,16 +6794,16 @@ Največji delitelj števil 27 in 63 je 9.</code></pre>
 Podajte števila (ločite jih z vejico): 14,77, 35,  777
 Vnesli ste števila: [14, 77, 35, 777]
 ------------------------------------------------------------
-Preglejujem številki 77 in 14.
+Preglejujem števili 77 in 14.
 77 = 5 * 14 + 7
 14 = 2 * 7 + 0
 Največji skupni delitelj števil 77 in 14 je 7.
 ------------------------------------------------------------------------------------------
-Preglejujem številki 35 in 7.
+Preglejujem števili 35 in 7.
 35 = 5 * 7 + 0
 Največji skupni delitelj števil 35 in 7 je 7.
 ------------------------------------------------------------------------------------------
-Preglejujem številki 777 in 7.
+Preglejujem števili 777 in 7.
 777 = 111 * 7 + 0
 Največji skupni delitelj števil 777 in 7 je 7.
 ------------------------------------------------------------------------------------------
@@ -6847,7 +6828,7 @@ Največji skupni delitelj števil 14, 77,  35,   777 je 7.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_1_rešitev_brez_pomoči">2.20.1. Rešitev #1: rešitev brez pomoči</h4>
 <div id="naloga020a" class="listingblock">
-<div class="title">Programska koda 48. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga020a.py">naloga020a.py</a></div>
+<div class="title">Izvorna koda 48. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga020a.py">naloga020a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -6947,7 +6928,7 @@ Največji skupni delitelj števil 14, 77,  35,   777 je 7.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">19</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Začnemo izvajati zanko <em>while</em>, ki se izvaja tako dolgo, dokler številka, ki jo uporabnik vnese, ni enaka številki, ki si jo je izbral program.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Začnemo izvajati zanko <em>while</em>, ki se izvaja tako dolgo, dokler število, ki ga uporabnik vnese, ni enako številu, ki si ga je izbral program.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">20</p></td>
@@ -6959,18 +6940,19 @@ Največji skupni delitelj števil 14, 77,  35,   777 je 7.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">22</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Če vnešena vrednost vsebuje samo številke, gremo naprej, v nasprotnem primeru se izvede <strong>vrstica 31</strong> in se uporabnik pozove k vpisu nove številke.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Če vnesena vrednost vsebuje samo številke, gremo naprej, v nasprotnem primeru se izvede <strong>vrstica 31</strong> in se uporabnik pozove k vpisu nove številke.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">23</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tip spremenljivke <em>stevilka</em> spremenimo v tip <em>integer</em>, saj iz <strong>vrstice 22</strong> vemo, da so vnešene samo številke.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tip spremenljivke <em>stevilka</em> spremenimo v tip <em>integer</em>, saj iz <strong>vrstice 22</strong> vemo, da so vnesene samo številke.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">24-29</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Preverjamo, če je vnešena vrednost enaka iskani. Če je, program končamo, če ni, se program izvaja naprej.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preverjamo, če je vnesena vrednost enaka iskani. Če je, program končamo, če ni, se program izvaja naprej.</p></td>
 </tr>
 </tbody>
 </table>
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p>Primer izpisa:</p>
 </div>
@@ -6997,7 +6979,7 @@ Igra je končana!</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_rešitev_s_pomočjo">2.20.2. Rešitev #2: rešitev s pomočjo</h4>
 <div id="naloga020b" class="listingblock">
-<div class="title">Programska koda 49. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga020b.py">naloga020b.py</a></div>
+<div class="title">Izvorna koda 49. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga020b.py">naloga020b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -7118,7 +7100,7 @@ Igra je končana!
 <div class="sect3">
 <h4 id="_rešitev_1_rešitev_z_vnosom_vsake_stranice_posebej">2.21.1. Rešitev #1: rešitev z vnosom vsake stranice posebej</h4>
 <div id="naloga021a" class="listingblock">
-<div class="title">Programska koda 50. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga021a.py">naloga021a.py</a></div>
+<div class="title">Izvorna koda 50. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga021a.py">naloga021a.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -7198,13 +7180,13 @@ Igra je končana!
 <span class="n">b</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">'</span><span class="s">Vnesite dolžino stranice b: </span><span class="sh">'</span><span class="p">)</span>
 <span class="n">c</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">'</span><span class="s">Vnesite dolžino stranice c: </span><span class="sh">'</span><span class="p">)</span>
 
-<span class="c1"># definirajmo funkcijo, ki nam bo preverila vnešene stranice
+<span class="c1"># definirajmo funkcijo, ki nam bo preverila vnesene stranice
 </span><span class="k">def</span> <span class="nf">preveriStevilke</span><span class="p">(</span><span class="n">stevilka</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">stevilka</span> <span class="o">=</span> <span class="nf">float</span><span class="p">(</span><span class="n">stevilka</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">stevilka</span>
     <span class="k">except</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"'</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="sh">'</span><span class="s"> ni številka.</span><span class="sh">"</span><span class="p">)</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"'</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="sh">'</span><span class="s"> ni število.</span><span class="sh">"</span><span class="p">)</span>
         <span class="nf">quit</span><span class="p">()</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-</span><span class="sh">"</span><span class="o">*</span><span class="mi">64</span><span class="p">)</span>
@@ -7272,11 +7254,11 @@ Igra je končana!
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">15-21</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definiramo funkcijo <em>preveriStevilke()</em>, ki za vpisano vrednost preveri, ali gre za decimalno število ali ne. Najprej poskusi vpisan niz znakov pretvoriti v decimalno število (z uporabo funkcije <em>float()</em>, <strong>vrstica 17</strong>). Če je pretvorba uspešna, vrne številko (<strong>vrstica 18</strong>), v nasprotnem primeru pa izpiše napako (<strong>vrstica 20</strong>) in program ustavi (<strong>vrstica 21</strong>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definiramo funkcijo <em>preveriStevilke()</em>, ki za vpisano vrednost preveri, ali gre za decimalno število ali ne. Najprej poskusi vpisani niz znakov pretvoriti v decimalno število (z uporabo funkcije <em>float()</em>, <strong>vrstica 17</strong>). Če je pretvorba uspešna, vrne številko (<strong>vrstica 18</strong>), v nasprotnem primeru izpiše napako (<strong>vrstica 20</strong>) in program ustavi (<strong>vrstica 21</strong>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">26-28</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vsako od spremenljivk (<em>a</em>, <em>b</em> in <em>c</em>) preverimo, če gre za število.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Za vsako od spremenljivk (<em>a</em>, <em>b</em> in <em>c</em>) preverimo, če gre za število.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">31</p></td>
@@ -7349,7 +7331,7 @@ Trikotnik s podanimi stranicami 1.0, 2.0 in 3.0 ne obstaja.</code></pre>
 <div class="sect3">
 <h4 id="_rešitev_2_rešitev_z_enkratnim_vnosom">2.21.2. Rešitev #2: rešitev z enkratnim vnosom</h4>
 <div id="naloga021b" class="listingblock">
-<div class="title">Programska koda 51. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga021b.py">naloga021b.py</a></div>
+<div class="title">Izvorna koda 51. <a href="https://github.com/pzi-si/pzi-src-2/blob/main/naloga021b.py">naloga021b.py</a></div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="python"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
  2
@@ -7438,7 +7420,7 @@ Trikotnik s podanimi stranicami 1.0, 2.0 in 3.0 ne obstaja.</code></pre>
 <span class="c1"># Podamo stranice pravokotnika
 </span><span class="n">stranice</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">'</span><span class="s">Vnesite dolžine stranic trikotnika, ki jih loči z vejico: </span><span class="sh">'</span><span class="p">)</span>
 
-<span class="c1"># Podan niz znakov pretvorimo v seznam
+<span class="c1"># Podani niz znakov pretvorimo v seznam
 </span><span class="n">stranice</span> <span class="o">=</span> <span class="n">stranice</span><span class="p">.</span><span class="nf">split</span><span class="p">(</span><span class="sh">"</span><span class="s">,</span><span class="sh">"</span><span class="p">)</span>
 
 <span class="c1"># Preverimo, koliko delov ima seznam
@@ -7451,13 +7433,13 @@ Trikotnik s podanimi stranicami 1.0, 2.0 in 3.0 ne obstaja.</code></pre>
 <span class="n">b</span> <span class="o">=</span> <span class="n">stranice</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 <span class="n">c</span> <span class="o">=</span> <span class="n">stranice</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
 
-<span class="c1"># definirajmo funkcijo, ki nam bo preverila vnešene stranice
+<span class="c1"># definirajmo funkcijo, ki nam bo preverila vnesene stranice
 </span><span class="k">def</span> <span class="nf">preveriStevilke</span><span class="p">(</span><span class="n">stevilka</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">stevilka</span> <span class="o">=</span> <span class="nf">float</span><span class="p">(</span><span class="n">stevilka</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">stevilka</span>
     <span class="k">except</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="s"> ni številka.</span><span class="sh">"</span><span class="p">)</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">stevilka</span><span class="si">}</span><span class="s"> ni število.</span><span class="sh">"</span><span class="p">)</span>
         <span class="nf">quit</span><span class="p">()</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-</span><span class="sh">"</span><span class="o">*</span><span class="mi">64</span><span class="p">)</span>
@@ -7528,7 +7510,7 @@ Trikotnik s podanimi stranicami 1.0, 2.0 in 3.0 ne obstaja.</code></pre>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">13</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vpeljemo spremenljivko <em>stranice</em> in ji priredimo vrednosti, ki jih dobimo tako, da vpisan niz znakov razdelimo po vejicah. Spremenljivka <em>stranice</em> je torej seznam (podatkovni tip <em>list</em>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vpeljemo spremenljivko <em>stranice</em> in ji priredimo vrednosti, ki jih dobimo tako, da vpisani niz znakov razdelimo po vejicah. Spremenljivka <em>stranice</em> je torej seznam (podatkovni tip <em>list</em>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">16-18</p></td>
@@ -7566,7 +7548,7 @@ Trikotnik s podanimi stranicami 4.0, 5.0 in 7.0 ima obseg 16.0 in površino 9.79
 <td class="content">
 <div class="title">Pozor</div>
 <div class="paragraph">
-<p>Če ste pozorni, pri pretvarjanju vnosnega niza znakov najprej v seznam in potem v decimalno število nikjer ne odstranjujemo presledkov. To ni potrebno, ker za odvečne presledke poskrbi uporabljena funkcija <em>float()</em>.</p>
+<p>Če ste pozorni, pri pretvarjanju vnosnega niza znakov najprej v seznam in potem v decimalno število nikjer ne odstranjujemo presledkov. To ni treba, saj za odvečne presledke poskrbi uporabljena funkcija <em>float()</em>.</p>
 </div>
 </td>
 </tr>
@@ -7586,7 +7568,7 @@ Trikotnik s podanimi stranicami 4.0, 5.0 in 7.0 ima obseg 16.0 in površino 9.79
 <div class="ulist">
 <ul>
 <li>
-<p>Izvorna koda programov v knjigi</p>
+<p>Izvorna koda programov v knjigi.</p>
 </li>
 <li>
 <p>Povezave do opisov uporabljenih konstant in funkcij ter pomembnih razlag:</p>
@@ -7648,30 +7630,10 @@ Trikotnik s podanimi stranicami 4.0, 5.0 in 7.0 ima obseg 16.0 in površino 9.79
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_kolofon">Kolofon</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Fakulteta za gradbeništvo in geodezijo Univerze v Ljubljani.</p>
-</div>
-<div class="paragraph">
-<p>&#169; 2024 Fakulteta za gradbeništvo in geodezijo</p>
-</div>
-<div class="paragraph">
-<p>Objavljeno v Ljubljani.</p>
-</div>
-<div class="paragraph">
-<p>Zbirko sta zasnovala Robert Klinc in Matevž Dolenc.</p>
-</div>
-<div class="paragraph">
-<p>Ustvarjen s pomočnikom Asciidoctor na Apple Mac OS X.</p>
-</div>
-</div>
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.96<br>
+Version 0.99<br>
 </div>
 </div>
 </body>

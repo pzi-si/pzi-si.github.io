@@ -5,11 +5,11 @@ tags: ["novo", "knjiga"]
 authors:
   - "rk"
   - "md"
-layout: "single"
+layout: "book"
 showAuthor: false
 showAuthorsBadges: true
 showDate: false
-showTableOfContents: false
+showTableOfContents: true
 showReadingTime: false
 showWordCount: false
 showSummary: true
