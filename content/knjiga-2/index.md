@@ -22,7 +22,16 @@ V tem učbeniku oziroma zbirki nalog ne boste našli čisto vseh osnov in v njej
 
 Sedaj pa veselo na delo.
 
-<div class="flex space-x-4 ...">
-{{< button href="/knjiga-2.html" target="_self" >}}Preberi{{< /button >}}
-<!-- {{< button href="/knjiga-2.html" target="_self" >}}PDF{{< /button >}} -->
-</div>
+|||
+|-|-|
+| {{< button href="/knjiga-2.html" target="_self" >}}Preberi{{< /button >}} | {{< button href="https://ebooks.uni-lj.si/ZalozbaUL/catalog/view/648/1022/10709" target="_self" >}}PDF{{< /button >}} |
+
+### Licenca
+
+![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+To delo je licencirano pod Creative [Commons Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 4.0 mednarodno licenco](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+### Kako citirati
+
+Klinc, R., & Dolenc, M. (2024). Programiranje za inženirje: Rešeni primeri v programskem jeziku Python. Založba Univerze v Ljubljani. [https://doi.org/10.15292/9789612974275](https://doi.org/10.15292/9789612974275)
